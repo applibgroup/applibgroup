@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "purple",
+      "value": "#FF9b92b3"
+    },
+    {
+      "name": "blue",
+      "value": "#0000ff"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "grey",
+      "value": "#d3d3d3"
+    }
+  ]
+}

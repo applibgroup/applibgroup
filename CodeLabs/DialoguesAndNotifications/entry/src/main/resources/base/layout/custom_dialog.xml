@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:txt_dia"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:layout_alignment="center"
+        ohos:margin="10vp"
+        ohos:text="Do you really want to exit ?"
+        ohos:text_color="$color:black"
+        ohos:text_size="18vp"/>
+
+
+    <DirectionalLayout
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_margin="13vp"
+        ohos:bottom_margin="15vp"
+        ohos:layout_alignment="center"
+        ohos:orientation="horizontal" >
+
+        <Button
+            ohos:id="$+id:btn_yes"
+            ohos:width="80vp"
+            ohos:height="30vp"
+            ohos:clickable="true"
+            ohos:left_margin="30vp"
+            ohos:text_size="15vp"
+            ohos:right_margin="80vp"
+            ohos:background_element="$graphic:button_background"
+            ohos:text="$string:yes"
+            ohos:text_color="$color:blue"
+            />
+
+        <Button
+            ohos:id="$+id:btn_no"
+            ohos:width="80vp"
+            ohos:height="30vp"
+            ohos:right_margin="20vp"
+            ohos:background_element="$graphic:button_background"
+            ohos:text_size="15vp"
+            ohos:layout_alignment="center"
+            ohos:clickable="true"
+            ohos:text="$string:no"
+            ohos:text_color="$color:blue"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>
