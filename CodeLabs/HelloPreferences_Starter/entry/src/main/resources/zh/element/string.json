@@ -2,7 +2,7 @@
   "string": [
     {
       "name": "entry_MainAbility",
-      "value": "Hello Preferences"
+      "value": "entry_MainAbility"
     },
     {
       "name": "mainability_description",
@@ -10,7 +10,7 @@
     },
     {
       "name": "mainability_HelloWorld",
-      "value": "Hello World"
+      "value": "你好，世界"
     }
   ]
 }
