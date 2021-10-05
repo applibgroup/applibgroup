@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:text_display"
+        ohos:height="300vp"
+        ohos:width="300vp"
+        ohos:horizontal_center="true"
+        ohos:top_margin="150vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="0"
+        ohos:text_alignment="center"
+        ohos:text_size="100fp"
+        />
+
+    <DirectionalLayout
+        ohos:id="$+id:color_root"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:text_display"
+        ohos:left_margin="30vp"
+        ohos:orientation="horizontal"
+        ohos:right_margin="30vp"
+        ohos:top_margin="50vp"
+        ohos:total_weight="3">
+
+        <Button
+            ohos:id="$+id:btn_red"
+            ohos:height="50vp"
+            ohos:width="0"
+            ohos:background_element="$color:red"
+            ohos:text="Red"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="20fp"
+            ohos:weight="1"
+            />
+
+        <Button
+            ohos:id="$+id:btn_green"
+            ohos:height="50vp"
+            ohos:width="0"
+            ohos:background_element="$color:green"
+            ohos:text="Green"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="20fp"
+            ohos:weight="1"
+            />
+
+        <Button
+            ohos:id="$+id:btn_blue"
+            ohos:height="50vp"
+            ohos:width="0"
+            ohos:background_element="$color:blue"
+            ohos:text="Blue"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="20fp"
+            ohos:weight="1"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:count_root"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:color_root"
+        ohos:left_margin="60vp"
+        ohos:orientation="horizontal"
+        ohos:right_margin="60vp"
+        ohos:top_margin="25vp"
+        ohos:total_weight="2">
+
+        <Button
+            ohos:id="$+id:btn_count"
+            ohos:height="50vp"
+            ohos:width="0"
+            ohos:background_element="$color:grey"
+            ohos:text="Count"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="20fp"
+            ohos:weight="1"
+            />
+
+        <Button
+            ohos:id="$+id:btn_reset"
+            ohos:height="50vp"
+            ohos:width="0"
+            ohos:left_margin="20vp"
+            ohos:background_element="$color:grey"
+            ohos:text="Reset"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="20fp"
+            ohos:weight="1"
+            />
+
+    </DirectionalLayout>
+
+</DependentLayout>
