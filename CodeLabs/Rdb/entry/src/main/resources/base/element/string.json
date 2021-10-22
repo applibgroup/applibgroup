@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Rdb Store"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Relational Database"
+    },
+    {
+      "name": "firstName",
+      "value": "First Name"
+    },
+    {
+      "name": "lastName",
+      "value": "Last Name"
+    },
+    {
+      "name": "add",
+      "value": "Add"
+    },
+    {
+      "name": "update",
+      "value": "Update"
+    }
+  ]
+}
