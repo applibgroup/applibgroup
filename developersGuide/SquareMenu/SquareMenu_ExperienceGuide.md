@@ -106,15 +106,16 @@ This section will help us to understand the usage of the library as you use it i
 ### **List of XML attributes supported**
 Below is the list of XML attributes which are supported by the library.
 
-| name                   | type      | info                                                   |
-|------------------------|-----------|--------------------------------------------------------|
-| squareFabSize          | dimension     | To specify the sqauremenu size                |
-| fabColor          | color   | To specify sqauremenu color                 |
-| autoClose    | boolean     | To set auto close for sqauremenu |
-| iconM1          | color     | To specify icon for the sub menu 1                                     |
-| iconM2 | icon | To specify icon for the sub menu 2                    |
-| iconM3     | icon | To specify icon for the sub menu 3                        |
-| menuOpenDirection     | icon | To specify open direction for the sqauremenu. It takes 4 values ("top-left" and "top-right")                        |
+<table>
+	<tr><th>Name</th><th>Type</th><th>Info</th></tr>
+	<tr><td>squareFabSize</td><td>dimension</td><td>To specify the sqauremenu size</td></tr>
+	<tr><td>fabColor</td><td>color</td><td>To specify sqauremenu color</td></tr>
+	<tr><td>autoClose</td><td>boolean</td><td>To set auto close for sqauremenu</td></tr>
+	<tr><td>iconM1</td><td>icon</td><td>To specify icon for the sub menu 1</td></tr>
+	<tr><td>iconM2</td><td>icon</td><td>To specify icon for the sub menu 2</td></tr>
+	<tr><td>iconM3</td><td>icon</td><td>To specify icon for the sub menu 3</td></tr>
+	<tr><td>menuOpenDirection</td><td>icon</td><td>To specify open direction for the sqauremenu. It takes 4 values ("top-left" and "top-right")</td></tr>
+</table>
 
 
 ### **List of public APIs for app-developer**
