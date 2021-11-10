@@ -122,7 +122,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table> 
 	<tr>
-		<th> Setter Methods </th>
+		<th colspan="2"> Setter Methods </th>
 	</tr>
 	<tr>
 		<th >name</th>
