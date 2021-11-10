@@ -107,7 +107,7 @@ This section will help us to understand the usage of the library as you use it i
 Below is the list of XML attributes which are supported by the library.
 
 <table>
-	<tr><th>Name</th><th>Type</th><th>Info</th></tr>
+	<tr><th>Name</th><th>Type</th><th width="100%">Info</th></tr>
 	<tr><td>squareFabSize</td><td>dimension</td><td>To specify the sqauremenu size</td></tr>
 	<tr><td>fabColor</td><td>color</td><td>To specify sqauremenu color</td></tr>
 	<tr><td>autoClose</td><td>boolean</td><td>To set auto close for sqauremenu</td></tr>
