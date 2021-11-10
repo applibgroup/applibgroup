@@ -122,7 +122,7 @@ The public methods below will help us to operate on the component at runtime.
 
 |Setter Methods|
 |--|
-|<table> <tr><th>name</th><th>info</th></tr><tr><td>setFABColor() </td><td>To specify the sqauremenu color </td></tr><tr><td>setAutoClose() </td><td>To set auto close for sqauremenu </td></tr><tr><td>setMenuOpenDirection() </td><td>To specify open direction for the sqauremenu. It takes - ("top-left" & "top-right")</td></tr><tr><td>setOnMenuClickListener() </td><td>To specify click listener's for squaremenu and 3 sub menu's </td></tr> </table>| 
+|<table> <tr><th>name</th><th width:50%;>info</th></tr><tr><td>setFABColor() </td><td>To specify the sqauremenu color </td></tr><tr><td>setAutoClose() </td><td>To set auto close for sqauremenu </td></tr><tr><td>setMenuOpenDirection() </td><td>To specify open direction for the sqauremenu. It takes - ("top-left" & "top-right")</td></tr><tr><td>setOnMenuClickListener() </td><td>To specify click listener's for squaremenu and 3 sub menu's </td></tr> </table>| 
 
 
 |Getter Methods| | 
