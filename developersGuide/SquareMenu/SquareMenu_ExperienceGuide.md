@@ -121,7 +121,9 @@ Below is the list of XML attributes which are supported by the library.
 The public methods below will help us to operate on the component at runtime.
 
 <table> 
-	<th> Setter Methods </th>
+	<tr>
+		<th> Setter Methods </th>
+	</tr>
 	<tr>
 		<th >name</th>
 		<th>info</th>
