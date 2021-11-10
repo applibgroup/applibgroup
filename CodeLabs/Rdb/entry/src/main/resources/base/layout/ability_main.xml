@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:top_margin="20vp">
+
+        <Text
+            ohos:id="$+id:title"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="$string:mainability_description"
+            ohos:bottom_margin="10vp"
+            ohos:left_margin="40vp"
+            ohos:padding="10vp"
+            ohos:right_margin="40vp"
+            ohos:text_alignment="center"
+            ohos:text_color="#000000"
+            ohos:text_size="22fp"
+            ohos:top_margin="10vp"/>
+
+        <TextField
+            ohos:id="$+id:name_text"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:field_background"
+            ohos:bottom_margin="10vp"
+            ohos:hint="$string:firstName"
+            ohos:hint_color="#d3d3d3"
+            ohos:left_margin="40vp"
+            ohos:padding="10vp"
+            ohos:right_margin="40vp"
+            ohos:text_alignment="center"
+            ohos:text_color="#000000"
+            ohos:text_size="18fp"
+            ohos:top_margin="10vp"/>
+
+        <TextField
+            ohos:id="$+id:lastName_text"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:field_background"
+            ohos:bottom_margin="10vp"
+            ohos:hint="$string:lastName"
+            ohos:hint_color="#d3d3d3"
+            ohos:left_margin="40vp"
+            ohos:padding="10vp"
+            ohos:right_margin="40vp"
+            ohos:text_alignment="center"
+            ohos:text_color="#000000"
+            ohos:text_size="18fp"
+            ohos:top_margin="10vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp"
+        ohos:total_weight="2">
+
+        <Button
+            ohos:id="$+id:add_button"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:background_element="$graphic:button_background"
+            ohos:bottom_margin="10vp"
+            ohos:left_margin="40vp"
+            ohos:padding="10vp"
+            ohos:right_margin="10vp"
+            ohos:text="$string:add"
+            ohos:text_size="20fp"
+            ohos:top_margin="10vp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:update_button"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:background_element="$graphic:button_background"
+            ohos:bottom_margin="10vp"
+            ohos:left_margin="10vp"
+            ohos:padding="10vp"
+            ohos:right_margin="40vp"
+            ohos:text="$string:update"
+            ohos:text_size="20fp"
+            ohos:top_margin="10vp"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <!--<ListContainer
+        ohos:id="$+id:people_list"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="10vp"/>-->
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:top_margin="20vp"
+        ohos:bottom_margin="10vp"
+        ohos:left_margin="40vp"
+        ohos:padding="10vp"
+        ohos:right_margin="40vp"
+        ohos:background_element="$graphic:list_background"
+        ohos:orientation="vertical">
+        <ListContainer
+            ohos:id="$+id:people_list"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:margin="10vp"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

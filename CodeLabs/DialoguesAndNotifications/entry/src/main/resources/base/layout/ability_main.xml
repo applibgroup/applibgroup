@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:total_weight="4">
+
+    <DependentLayout
+        ohos:top_margin="100vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <Button
+            ohos:id="$+id:common_dialog"
+            ohos:height="match_content"
+            ohos:width="200vp"
+            ohos:background_element="$color:grey"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="15vp"
+            ohos:text="$string:common_dialog"
+            ohos:text_size="22fp"
+            />
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <Button
+            ohos:id="$+id:list_dialog"
+            ohos:height="match_content"
+            ohos:width="200vp"
+            ohos:background_element="$color:grey"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="15vp"
+            ohos:text="$string:list_dialog"
+            ohos:text_size="22fp"
+            />
+    </DependentLayout>
+
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <Button
+            ohos:id="$+id:custom_dialog"
+            ohos:height="match_content"
+            ohos:width="200vp"
+            ohos:background_element="$color:grey"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="15vp"
+            ohos:text="$string:custom_dialog"
+            ohos:text_size="22fp"
+            />
+    </DependentLayout>
+
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="100vp"
+        ohos:weight="1">
+
+        <Button
+            ohos:id="$+id:notify_me"
+            ohos:height="match_content"
+            ohos:width="200vp"
+            ohos:background_element="$color:grey"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="15vp"
+            ohos:text="$string:notify_me"
+            ohos:text_size="22fp"
+            />
+    </DependentLayout>
+
+</DirectionalLayout>

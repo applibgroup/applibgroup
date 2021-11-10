@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Dialogues & Notifications"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "common_dialog",
+      "value": "Common Dialog"
+    },
+    {
+      "name": "list_dialog",
+      "value": "List Dialog"
+    },
+    {
+      "name": "custom_dialog",
+      "value": "Custom Dialog"
+    },
+    {
+      "name": "notify_me",
+      "value": "notify Me!"
+    },
+    {
+      "name": "yes",
+      "value": "Yes"
+    },
+    {
+      "name": "no",
+      "value": "No"
+    },
+    {
+      "name": "picture_notification",
+      "value": "Picture Notification"
+    }
+  ]
+}

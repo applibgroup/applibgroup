@@ -1,0 +1,40 @@
+{
+  "app": {
+    "bundleName": "com.huawei.rdb",
+    "vendor": "huawei",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 5,
+      "target": 5
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.rdb",
+    "name": "testModule",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry_test",
+      "moduleType": "feature",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "name": "decc.testkit.runner.EntryAbility",
+        "description": "Test Entry Ability",
+        "icon": "$media:icon",
+        "label": "$string:app_name",
+        "launchType": "standard",
+        "orientation": "landscape",
+        "visible": true,
+        "type": "page"
+      }
+    ]
+  }
+}
