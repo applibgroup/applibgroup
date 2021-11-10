@@ -154,10 +154,6 @@ The public methods below will help us to operate on the component at runtime.
 	<tr>
 		<td>
 			<table> 
-				<tr>
-					<th> Getter Methods </th>
-				</tr>
-				<tr>
 					<th>name</th>
 					<th>info</th>
 				</tr>
