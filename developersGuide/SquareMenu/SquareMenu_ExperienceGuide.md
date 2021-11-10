@@ -147,8 +147,9 @@ The public methods below will help us to operate on the component at runtime.
 </table>
 
 
-<table> <tr><th> Getter Methods </th></tr><tr><th>name</th><th width="100%">info</th></tr><tr><td>getFABColor() </td><td> Get the sqauremenu color</td></tr> </table>| <table> <tr><th>name</th><th>info</th></tr><tr><td>getMenuOpenDirection()</td><td>Get the menu open direction.</td></tr>
-</table>
+|Getter Methods| | 
+|--|--|
+|<table> <tr><th>name</th><th>info</th></tr><tr><td>getFABColor() </td><td> Get the sqauremenu color</td></tr> </table>| <table> <tr><th>name</th><th>info</th></tr><tr><td>getMenuOpenDirection()</td><td>Get the menu open direction.</td></tr></table>|
 
 |Interface|Interface Methods|
 |--|--|
