@@ -136,7 +136,7 @@ The public methods below will help us to operate on the component at runtime.
 ## **7. API usage examples**
 In this section, we can have a look at some of the examples where the APIs of this library is put to use and the results which we can acheive.
 
-**Example2: Customising squareFabSize attribute**  |
+**Example1: Customising squareFabSize attribute**  |
 <table>
     <tr >
         <td width="50%">
@@ -162,7 +162,7 @@ In this section, we can have a look at some of the examples where the APIs of th
     </tr>
 </table>
 
-**Example3: Setting the icon for sub menu 1**
+**Example2: Setting the icon for sub menu 1**
 <table>
     <tr>
         <td width="50%">
@@ -214,10 +214,10 @@ In this section, we can have a look at some of the examples where the APIs of th
     </tr>
 </table>
 
-**Example3: Setting the icon for sub menu 3**
+**Example4: Setting the icon for sub menu 3**
 <table>
     <tr>
-        <td >
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -240,7 +240,7 @@ In this section, we can have a look at some of the examples where the APIs of th
     </tr>
 </table>
 
-**Example1: Customizing fabColor attribute**
+**Example5: Customizing fabColor attribute**
 
 
 In this example, setting the color of the squaremenu to blue in layout.xml. The color code is in [RGB-format](https://htmlcolorcodes.com/)
@@ -276,10 +276,10 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
 </table>
 
 
-**Example3: Setting the auto close property**
+**Example6: Setting the auto close property**
 <table>
     <tr>
-        <td >
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -309,10 +309,10 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
     </tr>
 </table>
 
-**Example3: Setting the menu open direction**
+**Example7: Setting the menu open direction**
 <table>
     <tr>
-        <td >
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -342,10 +342,10 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
     </tr>
 </table>
 
-**Example3: Setting the Click Listener to the menu calling setOnMenuClickListener by passing the OnMenuClickListener interface and implementing the abstract methods**
+**Example8: Setting the Click Listener to the menu calling setOnMenuClickListener by passing the OnMenuClickListener interface and implementing the abstract methods**
 <table>
     <tr>
-        <td >
+        <td width="50%">
 <b><u>Java Slice</u>:</b>
 <pre>
 SquareMenu mSquareMenu;
