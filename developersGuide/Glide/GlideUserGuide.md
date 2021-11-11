@@ -23,7 +23,7 @@ This library - com.bumptech.glide, is very useful in the development of applicat
 
 <center><table>
     <tr>
-        <td width="70%">
+        <td width="50%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
         </td>
        <td width="100%">
