@@ -173,7 +173,7 @@ The public methods below will help us to operate on the component at runtime.
 			<table>
 				<tr>
 					<th>name</th>
-					<th>info</th>
+					<th width="100%">info</th>
 				</tr>
 				<tr>
 					<td>getMenuOpenDirection()</td>
