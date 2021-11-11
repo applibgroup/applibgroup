@@ -202,7 +202,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example1: Customising squareFabSize attribute**  |
 <table>
     <tr >
-        <td width="50%">
+        <td width="75%">
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.devs.squaremenu.SquareMenu
@@ -219,7 +219,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="SquareMenuDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -228,7 +228,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example2: Setting the icon for sub menu 1**
 <table>
     <tr>
-        <td width="50%">
+        <td width="75%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -245,7 +245,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td >
+        <td width="100%">
         <center><img src="SquareMenuDocImgs/menu1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -254,7 +254,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example3: Setting the icon for sub menu 2**
 <table>
     <tr>
-        <td width="50%">
+        <td width="75%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -271,7 +271,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td width="50%">
+        <td width="100%">
         <center><img src="SquareMenuDocImgs/menu2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
