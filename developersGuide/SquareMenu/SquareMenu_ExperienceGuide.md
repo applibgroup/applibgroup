@@ -202,7 +202,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example1: Customising squareFabSize attribute**  |
 <table style="width: 100%">
     <tr >
-        <td width="75%">
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.devs.squaremenu.SquareMenu
@@ -228,7 +228,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example2: Setting the icon for sub menu 1**
 <table style="width: 100%">
     <tr>
-        <td width="75%">
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
@@ -254,7 +254,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example3: Setting the icon for sub menu 2**
 <table style="width: 100%">
     <tr>
-        <td width="75%">
+        <td width="50%">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.devs.squaremenu.SquareMenu
