@@ -21,12 +21,12 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 This library - com.bumptech.glide, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table style="width: 100%">
+<center><table widt=100">
     <tr>
-        <td width="70%">
+        <td width="50%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
         </td>
-       <td width="70%">
+       <td width="100%">
             <ul><li><b>RecyclerComponent Image</b></br>Image and title are displaying with recycler component..</li><ul>
         </td>
     </tr>
