@@ -168,7 +168,7 @@ The public methods below will help us to operate on the component at runtime.
 			</table>
 			</div>
 		</td>
-		<td width="100%">
+		<td width="120%">
 			<div align="center">
 			<table>
 				<tr>
