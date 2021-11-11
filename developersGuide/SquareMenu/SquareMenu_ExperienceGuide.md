@@ -166,7 +166,7 @@ The public methods below will help us to operate on the component at runtime.
 				</tr> 
 			</table>
 		</td>
-		<td width="50%">
+		<td width="100%">
 			<div align="center">
 			<table>
 				<tr>
@@ -189,7 +189,7 @@ The public methods below will help us to operate on the component at runtime.
 		<th>Interface Methods</th>
 	</tr>
 	<tr>
-		<td width="100%">
+		<td width="50%">
 			<table> <tr><th>name</th><th width="100%">info</th></tr><tr><td>OnMenuClickListener </td><td>Implement click listerner to menu</td></tr> </table>
 		</td>
 		<td  width="100%">
