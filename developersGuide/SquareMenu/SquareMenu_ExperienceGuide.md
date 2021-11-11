@@ -9,20 +9,22 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.devs.squaremenu.SquareMenu, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
-        <td>
+        <td width="50%">
             <ul><li><b>Contact List delete</b></br>Deleting the selected contact using sub menu</li><ul>
         </td>
-        <td>
+        <td width="100%">
             <ul><li><b>Contact dial</b></br>Dailing the selected contact using sub menu</li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="SquareMenuDocImgs/maindelete.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="SquareMenuDocImgs/maindail.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="SquareMenuDocImgs/maindelete.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="SquareMenuDocImgs/maindail.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
