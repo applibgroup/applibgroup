@@ -26,7 +26,7 @@ This library - com.bumptech.glide, is very useful in the development of applicat
         <td width="50%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
         </td>
-       <td width="50%">
+       <td width="100%">
             <ul><li><b>RecyclerComponent Image</b></br>Image and title are displaying with recycler component..</li><ul>
         </td>
     </tr>
