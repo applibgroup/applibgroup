@@ -253,7 +253,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 You can load images from different sources into image component using this library.
 
 #### **<b>Loading image from res/drawable folder</b>**<br>
-<table style="width: 100%">
+<table  width=700>
     <tr>
         <td width="60%">
         <pre>
