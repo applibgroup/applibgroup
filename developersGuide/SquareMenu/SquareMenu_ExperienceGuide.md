@@ -159,7 +159,7 @@ The public methods below will help us to operate on the component at runtime.
 			<div align="center">
 			<table> 
 					<th>name</th>
-					<th width="100%">info</th>
+					<th>info</th>
 				</tr>
 				<tr>
 					<td>getFABColor() </td>
@@ -173,7 +173,7 @@ The public methods below will help us to operate on the component at runtime.
 			<table>
 				<tr>
 					<th>name</th>
-					<th width="100%">info</th>
+					<th>info</th>
 				</tr>
 				<tr>
 					<td>getMenuOpenDirection()</td>
