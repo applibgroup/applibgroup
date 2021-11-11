@@ -156,6 +156,7 @@ The public methods below will help us to operate on the component at runtime.
 	</tr>
 	<tr>
 		<td width="50%">
+			<div align="center">
 			<table> 
 					<th>name</th>
 					<th width="100%">info</th>
@@ -165,6 +166,7 @@ The public methods below will help us to operate on the component at runtime.
 					<td> Get the sqauremenu color</td>
 				</tr> 
 			</table>
+			</div>
 		</td>
 		<td width="100%">
 			<div align="center">
