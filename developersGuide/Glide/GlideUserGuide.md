@@ -259,7 +259,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 50%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -289,7 +289,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -366,7 +366,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -400,7 +400,7 @@ Here’s a code snippet that tells Glide to not cache the loaded images on the d
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -442,7 +442,7 @@ We have different types of targets available in harmony glide library.
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -512,7 +512,7 @@ Glide.with(this)
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -553,7 +553,7 @@ BaseTarget<Element> target2 =
 
 <table style="width: 100%;">
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
