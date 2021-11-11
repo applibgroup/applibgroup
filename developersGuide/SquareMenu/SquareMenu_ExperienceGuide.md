@@ -220,7 +220,7 @@ In this section, we can have a look at some of the examples where the APIs of th
         </pre>
         </td>
         <td width="100%">
-        <center><img src="SquareMenuDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -246,7 +246,7 @@ In this section, we can have a look at some of the examples where the APIs of th
         </pre>
         </td>
         <td width="100%">
-        <center><img src="SquareMenuDocImgs/menu1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menu1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -272,7 +272,7 @@ In this section, we can have a look at some of the examples where the APIs of th
         </pre>
         </td>
         <td width="100%">
-        <center><img src="SquareMenuDocImgs/menu2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menu2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -298,7 +298,7 @@ In this section, we can have a look at some of the examples where the APIs of th
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/menu3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menu3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -333,7 +333,7 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td width="50%">
-        <center><img src="SquareMenuDocImgs/color.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/color.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -367,7 +367,7 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/autoclose.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/autoclose.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -400,7 +400,7 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/main1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/main1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -438,7 +438,7 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td width="50%">
-        <center><img src="SquareMenuDocImgs/menuclick.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menuclick.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
