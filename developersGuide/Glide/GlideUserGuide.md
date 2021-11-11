@@ -259,7 +259,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 50%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="80%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -289,7 +289,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="80%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
