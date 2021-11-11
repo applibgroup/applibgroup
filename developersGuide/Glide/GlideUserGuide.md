@@ -274,7 +274,7 @@ You can load images from different sources into image component using this libra
       .into(image_component);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/resource_drawable.gif" alt="Italian Trulli" width="220px"
         height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
@@ -305,7 +305,7 @@ You can load images from different sources into image component using this libra
 
 </pre>
 </td>
-    <td>
+    <td width="100%">
         <center><img src="GlideImages/pixelmap_example.gif" alt="Italian Trulli" width="220px" height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
     </td>
@@ -384,7 +384,7 @@ Glide.with(classcontext)
      .into(medistoreimg);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/mediastore_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -416,7 +416,7 @@ Glide.with(this)
 </br>
 </pre>
   </td>
-     <td>
+     <td width="100%">
         <center><img src="GlideImages/diskcache_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
     </td>
 </tr>
@@ -499,7 +499,7 @@ Glide.with(this)
          .into(target3);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/target_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
@@ -543,7 +543,7 @@ BaseTarget<Element> target2 =
         .into(target2);
  </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/basetarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -552,10 +552,6 @@ BaseTarget<Element> target2 =
 #### Loading from SimpleTarget 
 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td>
         <pre>
@@ -577,7 +573,7 @@ Glide.with(this)
 });
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/simpletarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px"></center>
         </td>
     </tr>
