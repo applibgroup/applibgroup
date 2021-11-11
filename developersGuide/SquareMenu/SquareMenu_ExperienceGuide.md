@@ -191,10 +191,10 @@ The public methods below will help us to operate on the component at runtime.
 		<th>Interface Methods</th>
 	</tr>
 	<tr>
-		<td width="50%">
+		<td>
 			<table> <tr><th>name</th><th width="100%">info</th></tr><tr><td>OnMenuClickListener </td><td>Implement click listerner to menu</td></tr> </table>
 		</td>
-		<td>
+		<td width="100%">
 			<div align="center"><table> <tr><th>name</th><th>info</th></tr><tr><td>onMenuOpen()</td><td>when menu is opened</td></tr><tr><td>onMenuClose()</td><td>when menu is closed</td></tr><tr><td>onClickMenu1()</td><td>when menu 1 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 2 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 3 is opened</td></tr> </table></div>
 		</td>
 	</tr>
