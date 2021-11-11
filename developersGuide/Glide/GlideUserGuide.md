@@ -254,10 +254,6 @@ You can load images from different sources into image component using this libra
 
 #### **<b>Loading image from res/drawable folder</b>**<br>
 <table style="width: 100%">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 50%;">
-    </colgroup>
     <tr>
         <td width="60%">
         <pre>
@@ -274,7 +270,7 @@ You can load images from different sources into image component using this libra
       .into(image_component);
         </pre>
         </td>
-        <td width="100%">
+        <td width="40%">
         <center><img src="GlideImages/resource_drawable.gif" alt="Italian Trulli" width="220px"
         height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
