@@ -254,10 +254,6 @@ You can load images from different sources into image component using this libra
 
 #### **<b>Loading image from res/drawable folder</b>**<br>
 <table style="width: 100%">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 50%;">
-    </colgroup>
     <tr>
         <td width="65%">
         <pre>
@@ -284,10 +280,6 @@ You can load images from different sources into image component using this libra
 
 #### **<b>Loading image from PixelMap</b>**
 <table style="width: 100%; backgrund">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%">
         <pre>
@@ -361,10 +353,6 @@ You can load images from different sources into image component using this libra
 
  #### <b>Loading image from MediaStore</b><br>
    <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%>
         <pre>
@@ -395,10 +383,6 @@ Glide.with(classcontext)
 Bydefault disk cache will be enabled.In the following example disk cache disbaled, So every time when glide hits the network url instead of taking from the cache. In Demo we can see the image is taking some time to load into image component and other image is loading very fastly.<br><br>
 Here’s a code snippet that tells Glide to not cache the loaded images on the disk cache:
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%>
         <pre>
@@ -437,10 +421,6 @@ We have different types of targets available in harmony glide library.
 
 #### Loading from Target 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%>
         <pre>
@@ -507,10 +487,6 @@ Glide.with(this)
 
 #### Loading from BaseTarget 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%>
         <pre>
@@ -552,10 +528,6 @@ BaseTarget<Element> target2 =
 #### Loading from SimpleTarget 
 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
         <td width="65%>
         <pre>
