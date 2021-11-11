@@ -20,8 +20,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.bumptech.glide, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
-
-<center><table width=100">
+<div align="center">
+<table>
     <tr>
         <td width="50%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
@@ -34,8 +34,8 @@ This library - com.bumptech.glide, is very useful in the development of applicat
         <td width="50%"><p align="center"><img src="GlideImages/image_gallery_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
         <td width="100%"><p align="center"><img src="GlideImages/recycler_demo_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
