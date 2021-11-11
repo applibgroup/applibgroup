@@ -274,7 +274,7 @@ You can load images from different sources into image component using this libra
       .into(image_component);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/resource_drawable.gif" alt="Italian Trulli" width="220px"
         height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
@@ -305,7 +305,7 @@ You can load images from different sources into image component using this libra
 
 </pre>
 </td>
-    <td>
+    <td width="100%">
         <center><img src="GlideImages/pixelmap_example.gif" alt="Italian Trulli" width="220px" height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
     </td>
