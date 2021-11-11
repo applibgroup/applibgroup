@@ -31,8 +31,8 @@ This library - com.bumptech.glide, is very useful in the development of applicat
         </td>
     </tr>
     <tr>
-        <td><center><p align="center"><img src="GlideImages/image_gallery_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></center></td>
-        <td><center><img src="GlideImages/recycler_demo_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
+        <td><p align="center"><img src="GlideImages/image_gallery_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
+        <td><p align="center"><img src="GlideImages/recycler_demo_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
     </tr>
 </table></center>
 
