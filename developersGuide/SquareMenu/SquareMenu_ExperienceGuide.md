@@ -155,7 +155,7 @@ The public methods below will help us to operate on the component at runtime.
 		<th colspan="2"> Getter Methods </th>
 	</tr>
 	<tr>
-		<td width="50%">
+		<td>
 			<div align="center">
 			<table> 
 					<th>name</th>
@@ -168,7 +168,7 @@ The public methods below will help us to operate on the component at runtime.
 			</table>
 			</div>
 		</td>
-		<td width="120%">
+		<td width="100%">
 			<div align="center">
 			<table>
 				<tr>
