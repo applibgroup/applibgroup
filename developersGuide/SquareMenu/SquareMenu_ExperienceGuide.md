@@ -167,6 +167,7 @@ The public methods below will help us to operate on the component at runtime.
 			</table>
 		</td>
 		<td width="100%">
+			<div align="center">
 			<table>
 				<tr>
 					<th>name</th>
@@ -177,6 +178,7 @@ The public methods below will help us to operate on the component at runtime.
 					<td>Get the menu open direction.</td>
 				</tr>
 			</table>
+			</div>
 		</td>
 	</tr>
 </table>
