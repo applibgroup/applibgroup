@@ -253,9 +253,13 @@ In this section, we can have a look at some of the examples where the APIs of th
 You can load images from different sources into image component using this library.
 
 #### **<b>Loading image from res/drawable folder</b>**<br>
-<table style="width: 100%;">
+<table style="width: 100%">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 50%;">
+    </colgroup>
     <tr>
-        <td width="65%">
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -270,7 +274,7 @@ You can load images from different sources into image component using this libra
       .into(image_component);
         </pre>
         </td>
-        <td width="100%">
+        <td>
         <center><img src="GlideImages/resource_drawable.gif" alt="Italian Trulli" width="220px"
         height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
@@ -279,9 +283,13 @@ You can load images from different sources into image component using this libra
 </table>
 
 #### **<b>Loading image from PixelMap</b>**
-<table style="width: 100%;">
+<table style="width: 100%; backgrund">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%">
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -297,7 +305,7 @@ You can load images from different sources into image component using this libra
 
 </pre>
 </td>
-    <td width="100%">
+    <td>
         <center><img src="GlideImages/pixelmap_example.gif" alt="Italian Trulli" width="220px" height="400px" style="margin:50px 50px;
         overflow:hidden;"></center>
     </td>
@@ -353,8 +361,12 @@ You can load images from different sources into image component using this libra
 
  #### <b>Loading image from MediaStore</b><br>
    <table style="width: 100%;">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%>
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -372,7 +384,7 @@ Glide.with(classcontext)
      .into(medistoreimg);
         </pre>
         </td>
-        <td width="100%">
+        <td>
         <center><img src="GlideImages/mediastore_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -383,8 +395,12 @@ Glide.with(classcontext)
 Bydefault disk cache will be enabled.In the following example disk cache disbaled, So every time when glide hits the network url instead of taking from the cache. In Demo we can see the image is taking some time to load into image component and other image is loading very fastly.<br><br>
 Here’s a code snippet that tells Glide to not cache the loaded images on the disk cache:
 <table style="width: 100%;">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%>
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -400,7 +416,7 @@ Glide.with(this)
 </br>
 </pre>
   </td>
-     <td width="100%">
+     <td>
         <center><img src="GlideImages/diskcache_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
     </td>
 </tr>
@@ -421,8 +437,12 @@ We have different types of targets available in harmony glide library.
 
 #### Loading from Target 
 <table style="width: 100%;">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%>
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -479,7 +499,7 @@ Glide.with(this)
          .into(target3);
         </pre>
         </td>
-        <td width="100%">
+        <td>
         <center><img src="GlideImages/target_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
@@ -487,8 +507,12 @@ Glide.with(this)
 
 #### Loading from BaseTarget 
 <table style="width: 100%;">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%>
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -519,7 +543,7 @@ BaseTarget<Element> target2 =
         .into(target2);
  </pre>
         </td>
-        <td width="100%">
+        <td>
         <center><img src="GlideImages/basetarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -528,8 +552,12 @@ BaseTarget<Element> target2 =
 #### Loading from SimpleTarget 
 
 <table style="width: 100%;">
+    <colgroup>
+       <col span="1" style="width: 60%;">
+       <col span="1" style="width: 40%;">
+    </colgroup>
     <tr>
-        <td width="65%>
+        <td>
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -549,7 +577,7 @@ Glide.with(this)
 });
         </pre>
         </td>
-        <td width="100%">
+        <td>
         <center><img src="GlideImages/simpletarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px"></center>
         </td>
     </tr>
