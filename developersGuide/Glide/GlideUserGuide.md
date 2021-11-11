@@ -22,15 +22,11 @@ This library - com.bumptech.glide, is very useful in the development of applicat
 
 
 <center><table style="width: 100%">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 50%;">
-    </colgroup>
     <tr>
-        <td width="50%">
+        <td width="70%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
         </td>
-       <td width="100%">
+       <td width="70%">
             <ul><li><b>RecyclerComponent Image</b></br>Image and title are displaying with recycler component..</li><ul>
         </td>
     </tr>
