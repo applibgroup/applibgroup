@@ -293,7 +293,7 @@ You can load animation from different sources into LottieAnimationView component
         </pre>
         </td>
         <td>
-        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="200px"height="400px" style="margin:50px 50px;overflow:hidden;"></center>
+        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:50px 50px;"></center>
         </td>
     </tr>
 </table>
