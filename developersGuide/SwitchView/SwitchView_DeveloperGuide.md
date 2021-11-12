@@ -7,6 +7,7 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Case**
 This library - vn.luongvo.widget.ohos-switchview, is very useful in the development of application's feature requiring instant use. Couple of such examples are mentioned below:
 
+<div align="center">
 <center><table>
     <tr>
         <td>
@@ -17,7 +18,7 @@ This library - vn.luongvo.widget.ohos-switchview, is very useful in the developm
         <td><center><img src="ExpDocImgs/System_Settings_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
 </table></center>
-
+</div>
 
 
 ## **3. Capability**
@@ -126,7 +127,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 In this example, first the switch staus is set to **false** in layout.xml so that switching on can be clearly observable.The color code is in [RGB-format](https://htmlcolorcodes.com/)
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltvn.luongvo.widget.iosswitchview.SwitchView
@@ -149,7 +150,7 @@ findComponentById
 <b style="color:blue;">sv.setChecked(true);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="ExpDocImgs/setChecked_on_off.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -158,7 +159,7 @@ findComponentById
 **Example2: Customizing toggle switch view**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltvn.luongvo.widget.iosswitchview.SwitchView
@@ -179,7 +180,7 @@ findComponentById
 </b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="ExpDocImgs/toggle_off_new.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
