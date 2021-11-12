@@ -172,19 +172,37 @@ The public methods below will help us to operate on the component at runtime.
 </table>
 
 <table>
-<tr><th>Interface</th><th>Interface Methods</th></tr>
-<tr><td>
-
-| name                   | info                                                   |
-|------------------------|--------------------------------------------------------|
-| OnSelectIndexItemListener         |  Index item listener interface           |
-
-</td><td>
-
-| name                   | info                                                   |
-|------------------------|--------------------------------------------------------|
-| onSelectIndexItem()         |  This callback is called when an index is selected        |
-</td></tr> </table>
+	<tr>
+		<th width="500px">Interface</th>
+		<th width="500px">Interface Methods</th>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Info</th>
+				</tr>
+				<tr>
+					<td>OnSelectIndexItemListener</td>
+					<td>Index item listener interface</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Info</th>
+				</tr>
+				<tr>
+					<td>onSelectIndexItem()</td>
+					<td>This callback is called when an index is selected</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<table>
 
 ## **7. API usage examples**
 In this section, we can have a look at some of the examples where the APIs of this library is put to use and the results which we can achieve.
