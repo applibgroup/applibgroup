@@ -20,8 +20,8 @@ This library - com.gjiazhe.wavesidebar, is very useful in the development of app
         </td>
     </tr>
     <tr>
-        <td><center><img src="WaveSideBarDocImgs/contacts.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="WaveSideBarDocImgs/anylist.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="WaveSideBarDocImgs/contacts.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="WaveSideBarDocImgs/anylist.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table>
 </div>
@@ -365,7 +365,7 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 **Example8: Setting the OnSelectIndexItemListener interface and implementing the abstract methods**
 <table>
     <tr>
-        <td width="75%">
+        <td width="60%">
         <pre>
 <b><u>Java Slice</u>:</b>
 WaveSideBar sideBar = 
