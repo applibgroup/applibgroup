@@ -20,22 +20,22 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.bumptech.glide, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
-
-<center><table>
+<div align="center">
+<table>
     <tr>
-        <td>
+        <td width="50%">
             <ul><li><b>Image Gallery</b></br>Grid display for a motor bike image gallery</li><ul>
         </td>
-       <td>
+       <td width="100%">
             <ul><li><b>RecyclerComponent Image</b></br>Image and title are displaying with recycler component..</li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="GlideImages/image_gallery_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
-        <td><center><img src="GlideImages/recycler_demo_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
+        <td width="50%"><p align="center"><img src="GlideImages/image_gallery_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
+        <td width="100%"><p align="center"><img src="GlideImages/recycler_demo_example.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -259,7 +259,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 50%;">
     </colgroup>
     <tr>
-        <td width="60%">
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -289,7 +289,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td width="60%">
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -366,7 +366,7 @@ You can load images from different sources into image component using this libra
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -384,7 +384,7 @@ Glide.with(classcontext)
      .into(medistoreimg);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/mediastore_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -400,7 +400,7 @@ Here’s a code snippet that tells Glide to not cache the loaded images on the d
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -416,7 +416,7 @@ Glide.with(this)
 </br>
 </pre>
   </td>
-     <td>
+     <td width="100%">
         <center><img src="GlideImages/diskcache_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
     </td>
 </tr>
@@ -442,7 +442,7 @@ We have different types of targets available in harmony glide library.
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -499,7 +499,7 @@ Glide.with(this)
          .into(target3);
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/target_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
@@ -512,7 +512,7 @@ Glide.with(this)
        <col span="1" style="width: 40%;">
     </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltImage
@@ -543,7 +543,7 @@ BaseTarget<Element> target2 =
         .into(target2);
  </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/basetarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px;"></center>
         </td>
     </tr>
@@ -552,12 +552,8 @@ BaseTarget<Element> target2 =
 #### Loading from SimpleTarget 
 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltImage
@@ -577,7 +573,7 @@ Glide.with(this)
 });
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="GlideImages/simpletarget_example.gif" alt="Italian Trulli" style="width:220px;height:400px;margin:50px 50px"></center>
         </td>
     </tr>
