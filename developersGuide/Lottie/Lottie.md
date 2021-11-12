@@ -310,7 +310,8 @@ You can load animation from different sources into LottieAnimationView component
         ohos:height="match_parent"/><br><br>
 <b><u>Java Slice</u>:</b>
   L.setTraceEnabled(true);
-        LottieAnimationView lv = (LottieAnimationView)rootLayout.findComponentById(ResourceTable.Id_animationView);
+        LottieAnimationView lv = (LottieAnimationView)rootLayout
+              .findComponentById(ResourceTable.Id_animationView);
         LottieAnimationViewData data = new LottieAnimationViewData();
          data.setFilename(zipstring);
         data.setRepeatCount(repeatCount);
