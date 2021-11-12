@@ -9,6 +9,7 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - de.hdodendof.circleimageview, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
+<div align="center">
 <center><table>
     <tr>
         <td>
@@ -19,11 +20,11 @@ This library - de.hdodendof.circleimageview, is very useful in the development o
         </td>
     </tr>
     <tr>
-        <td><center><img src="ExpDocImgs/HighlightProfile.png" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="ExpDocImgs/ChatList.png" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ExpDocImgs/HighlightProfile.png" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="ExpDocImgs/ChatList.png" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table></center>
-
+</div>
 
 
 ## **3. Capability**
@@ -163,7 +164,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 In this example, first the background-color of the circleImageView is set to red color in layout.xml so that transparency is clearly observable. The color code is in [RGB-format](https://htmlcolorcodes.com/)
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltde.hdodenhof.circleimageview.CircleImageView
@@ -186,7 +187,7 @@ findComponentById
 <b style="color:blue;">civ.setAlpha(0.5f);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="ExpDocImgs/TransparentCircleImageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -195,7 +196,7 @@ findComponentById
 **Example2: Customising border related attributes**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltde.hdodenhof.circleimageview.CircleImageView
@@ -220,7 +221,7 @@ civ.setBorderWidth(20);
 </b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="ExpDocImgs/BorderFeatures.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -229,7 +230,7 @@ civ.setBorderWidth(20);
 **Example3: Changing the image at runtime**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltde.hdodenhof.circleimageview.CircleImageView
@@ -252,7 +253,7 @@ findComponentById
 <b style="color:blue;">civ.setPixelMap(ResourceTable.Media_Desert);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="ExpDocImgs/RuntimeImageChange.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
