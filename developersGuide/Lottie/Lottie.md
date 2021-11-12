@@ -29,8 +29,8 @@ This library - com.airbnb.lottie, is very useful in the development of applicati
         </td>
     </tr>
     <tr>
-        <td><center><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:230px;height:350px;"></center></td>
-        <td><center><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:250px;height:310px;"></center></td>
+        <td><center><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td><center><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
 </table></center>
 
