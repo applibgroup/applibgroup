@@ -19,7 +19,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 This library - com.airbnb.lottie, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Single Lottie</b></br>The lottie displayed in a single lottieanimationview</li><ul>
@@ -29,10 +30,11 @@ This library - com.airbnb.lottie, is very useful in the development of applicati
         </td>
     </tr>
     <tr>
-        <td><center><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div
 
 
 
@@ -273,7 +275,7 @@ You can load animation from different sources into LottieAnimationView component
 #### **Loading lottie animation from res/raw folder**<br>
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -290,10 +292,8 @@ You can load animation from different sources into LottieAnimationView component
         lv.setAnimationData(data);
         </pre>
         </td>
-        <td>
-        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="220px"
-        height="350px" style="margin:50px 50px;
-        overflow:hidden;"></center>
+        <td width="300px">
+        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:50px 50px;"></center>
         </td>
     </tr>
 </table>
@@ -301,7 +301,7 @@ You can load animation from different sources into LottieAnimationView component
 #### **Loading Animation from ZIP**
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -310,27 +310,26 @@ You can load animation from different sources into LottieAnimationView component
         ohos:height="match_parent"/><br><br>
 <b><u>Java Slice</u>:</b>
   L.setTraceEnabled(true);
-        LottieAnimationView lv = (LottieAnimationView)rootLayout.findComponentById(ResourceTable.Id_animationView);
+        LottieAnimationView lv = (LottieAnimationView)rootLayout
+              .findComponentById(ResourceTable.Id_animationView);
         LottieAnimationViewData data = new LottieAnimationViewData();
          data.setFilename(zipstring);
         data.setRepeatCount(repeatCount);
         data.autoPlay = true;
         lv.setAnimationData(data);
-</pre>
-</td>
-</tr>
-<tr>
-        <td>
+      </pre>
+      </td>
+      <td width="300px">
         <p>The following animation shows loading animation from the ZIP</p>
-        <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="300px" height="400px" style="margin:20px 20px;"></center>
-        </td>
-    </tr>
+        <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
+      </td>
+  </tr>
 </table><br>
 
  #### Loading animation from URL<br>
    <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -345,18 +344,18 @@ LottieAnimationViewData data = new LottieAnimationViewData();
         lv.setAnimationData(data);
         </pre>
         </td>
-        <td>
-        <center><img src="LottieImages/lottieurl.gif" alt="Italian Trulli" style="width:250px;height:350px;margin:20px 20px;"></center>
+        <td width="300px">
+        <center><img src="LottieImages/lottieurl.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
 </table>
 
-### **Example2: Repeat Count **<br>
+### **Example2: Repeat Count**<br>
 
 To change the animation repetition count.,In the following example Lottie library should display animation according to the repetition count specified
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -372,8 +371,8 @@ LottieAnimationViewData data = new LottieAnimationViewData();
 </br>
 </pre>
   </td>
-     <td>
-        <center><img src="LottieImages/lottiecount.gif" alt="Italian Trulli" style="width:270px;height:430px;margin:20px 20px;"></center>
+     <td width="300px">
+        <center><img src="LottieImages/lottiecount.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
     </td>
 </tr>
 </table><br>
