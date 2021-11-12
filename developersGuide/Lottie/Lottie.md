@@ -350,7 +350,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
     </tr>
 </table>
 
-### **Example2: Repeat Count **<br>
+### **Example2: Repeat Count**<br>
 
 To change the animation repetition count.,In the following example Lottie library should display animation according to the repetition count specified
 <table>
