@@ -319,12 +319,12 @@ You can load animation from different sources into LottieAnimationView component
 </pre>
 </td>
 </tr>
-<tr>
+
         <td>
         <p>The following animation shows loading animation from the ZIP</p>
         <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
         </td>
-    </tr>
+
 </table><br>
 
  #### Loading animation from URL<br>
