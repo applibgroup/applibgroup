@@ -19,7 +19,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 This library - com.airbnb.lottie, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Single Lottie</b></br>The lottie displayed in a single lottieanimationview</li><ul>
@@ -29,10 +30,11 @@ This library - com.airbnb.lottie, is very useful in the development of applicati
         </td>
     </tr>
     <tr>
-        <td><center><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:230px;height:350px;"></center></td>
-        <td><center><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:250px;height:310px;"></center></td>
+        <td width="50%"><p align="center"><img src="LottieImages/Lottiedemo.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="LottieImages/Example2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div
 
 
 
@@ -291,9 +293,7 @@ You can load animation from different sources into LottieAnimationView component
         </pre>
         </td>
         <td>
-        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="220px"
-        height="350px" style="margin:50px 50px;
-        overflow:hidden;"></center>
+        <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="200px"height="400px" style="margin:50px 50px;overflow:hidden;"></center>
         </td>
     </tr>
 </table>
@@ -322,7 +322,7 @@ You can load animation from different sources into LottieAnimationView component
 <tr>
         <td>
         <p>The following animation shows loading animation from the ZIP</p>
-        <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="300px" height="400px" style="margin:20px 20px;"></center>
+        <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
         </td>
     </tr>
 </table><br>
@@ -346,7 +346,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
         </pre>
         </td>
         <td>
-        <center><img src="LottieImages/lottieurl.gif" alt="Italian Trulli" style="width:250px;height:350px;margin:20px 20px;"></center>
+        <center><img src="LottieImages/lottieurl.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
 </table>
@@ -373,7 +373,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
 </pre>
   </td>
      <td>
-        <center><img src="LottieImages/lottiecount.gif" alt="Italian Trulli" style="width:270px;height:430px;margin:20px 20px;"></center>
+        <center><img src="LottieImages/lottiecount.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
     </td>
 </tr>
 </table><br>
