@@ -156,15 +156,20 @@ The public methods below will help us to operate on the component at runtime.
 
 **Setter Methods**
 
-| name                   | type      | info                                                   |
-|------------------------|-----------|--------------------------------------------------------|
-| setIndexItems()          | String array     | To specify the text color of WaveSideBar                |
-| setTextColor()          | color   | To specify WaveSideBar position                 |
-| setPosition()    | int     | To set Wave offset of the WaveSideBar |
-| setMaxOffset()          | int     | To set the response of the index selection                                     |
-| setLazyRespond() | boolean | To specify text alignment                    |
-| setTextAlign()     | int | To specify text size                        |
-| setTextSize()     | int | To specify text size                        |
+<table>
+	<tr>
+		<th width="30%">Name</th>
+		<th>width="60%"Type</th>
+		<thwidth="100%">Info</th>
+	</tr>
+	<tr><td>setIndexItems()</td><td>String array</td><td>To specify the text color of WaveSideBar</td></tr>
+	<tr><td>setTextColor()</td><td>color</td><td>To specify WaveSideBar position</td></tr>
+	<tr><td>setPosition()</td><td>int</td><td>To set Wave offset of the WaveSideBar</td></tr>
+	<tr><td>setMaxOffset()</td><td>int</td><td>To set the response of the index selection</td></tr>
+	<tr><td>setLazyRespond()</td><td>boolean</td><td>To specify text alignment</td></tr>
+	<tr><td>setTextAlign()</td><td>int</td><td>To specify text size</td></tr>
+	<tr><td>setTextSize()</td><td>int</td><td>To specify text size</td></tr>
+</table>
 
 <table>
 <tr><th>Interface</th><th>Interface Methods</th></tr>
