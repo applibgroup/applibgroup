@@ -139,8 +139,8 @@ Below is the list of XML attributes which are supported by the library.
 <table>
 	<tr>
 		<th width="30%">Name</th>
-		<th>width="60%"Type</th>
-		<thwidth="100%">Info</th>
+		<th width="60%">Type</th>
+		<th width="100%">Info</th>
 	</tr>
 	<tr><td>WaveSideBar_sidebar_text_color</td><td>color</td><td>To specify the text color of WaveSideBar</td></tr>
 	<tr><td>WaveSideBar_sidebar_position</td><td>int</td><td>To specify WaveSideBar position</td></tr>
