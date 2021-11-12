@@ -237,7 +237,7 @@ b.setClickedListener(new Component.ClickedListener() {
         </pre>
         </td>
         <td width=300px">
-        <center><img src="Images/RollOn.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="Images/RollOn.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -287,7 +287,7 @@ b.setClickedListener(new Component.ClickedListener() {
         </pre>
         </td>
         <td width=300px">
-        <center><img src="Images/Gravity.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="Images/Gravity.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -344,7 +344,7 @@ b.setClickedListener(new Component.ClickedListener() {
         </pre>
         </td>
         <td width=300px">
-        <center><img src="Images/ScrollDirection.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="Images/ScrollDirection.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
