@@ -110,7 +110,7 @@ The public methods below will help us to operate on the component at runtime.
 **Setter Methods**
 <table>
 <tr>
-    <td width="40%">
+    <td width="50%">
         <ul>
             <li>setAlpha()</li>
             <li>setBorderColor()</li>
@@ -120,7 +120,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setColorFilter()</li>
         </ul>
     </td>
-    <td width="80%">
+    <td width="100%">
         <ul>
             <li>setDisableCircularTransformation()</li>
             <li>setImageDrawable()</li>
@@ -137,7 +137,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td width="40%">
+    <td width="50%">
         <ul>
             <li>getAlpha()</li>
             <li>getBorderColor()</li>
@@ -145,7 +145,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>getCircleBackgroundColor()</li>
         </ul>
     </td>
-    <td width="80%">
+    <td width="100%">
         <ul>
             <li>getColorFilter()</li>
             <li>isBorderOverlay()</li>
