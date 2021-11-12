@@ -156,7 +156,7 @@ The public methods below will help us to operate on the component at runtime.
 
 **Setter Methods**
 
-<table>
+<table width="100%">
 	<tr>
 		<th width="30%">Name</th>
 		<th width="20%">Type</th>
