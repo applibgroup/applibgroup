@@ -197,7 +197,7 @@ The public methods below will help us to operate on the component at runtime.
 				</tr>
 				<tr>
 					<td>onSelectIndexItem()</td>
-					<td width="200px">This callback is called when an index is selected</td>
+					<td width="300px">This callback is called when an index is selected</td>
 				</tr>
 			</table>
 		</td>
