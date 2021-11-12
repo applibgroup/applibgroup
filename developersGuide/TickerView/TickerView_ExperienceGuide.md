@@ -12,7 +12,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.robinhood.ticker, is very useful in the development of applications which require rotating texts to be displayed on screen. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Stock Assistant</b></br>Monitor stock price changes for selected scrips.</li><ul>
@@ -22,10 +23,11 @@ This library - com.robinhood.ticker, is very useful in the development of applic
         </td>
     </tr>
     <tr>
-        <td><center><img src="Images/StockScreen.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="Images/StopWatch.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="Images/StockScreen.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="Images/StopWatch.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
@@ -110,7 +112,7 @@ Below is the list of XML attributes which are supported by the library.
 
 <table>
 <tr>
-    <td style="width:350px">
+    <td  width=500px">
         <ul>
             <li>text</li>
             <li>text_size</li>
@@ -120,7 +122,7 @@ Below is the list of XML attributes which are supported by the library.
             <li>ticker_defaultCharacterList</li>
         </ul>
     </td>
-    <td style="width:350px">
+    <td width=500px">
         <ul>
             <li>shadowColor</li>
             <li>shadowDx</li>
@@ -138,7 +140,7 @@ The public methods below will help us to operate on the component at runtime.
 **Setter Methods**
 <table>
 <tr>
-    <td style="width:350px">
+    <td width=500px">
         <ul>
             <li>setAnimationDelay()</li>
             <li>setAnimationDuration()</li>
@@ -149,7 +151,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setCharacterLists()</li>
         </ul>
     </td>
-    <td style="width:350px">
+    <td width=500px">
         <ul>
             <li>setGravity()</li>
             <li>setTextColor()</li>
@@ -167,7 +169,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td style="width:350px">
+    <td width=500px">
         <ul>
             <li>getAnimateMeasurementChange()</li>
             <li>getAnimationDuration()</li>
@@ -176,7 +178,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>getGravity()</li>
         </ul>
     </td>
-    <td style="width:350px">
+    <td width=500px">
         <ul>
             <li>getText()</li>
             <li>getTextColor()</li>
@@ -197,7 +199,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 In this example, we are setting the initial text via the layout.xml
 <table>
     <tr>
-        <td style="width:350px">
+        <td width=500px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -234,7 +236,7 @@ b.setClickedListener(new Component.ClickedListener() {
 });
         </pre>
         </td>
-        <td style="width:350px">
+        <td width=500px">
         <center><img src="Images/RollOn.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -243,7 +245,7 @@ b.setClickedListener(new Component.ClickedListener() {
 **Example2: Aligning ticker-text within the  ticker component**
 <table>
     <tr>
-        <td style="width:560px">
+        <td width=500px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -284,7 +286,7 @@ b.setClickedListener(new Component.ClickedListener() {
 </b>
         </pre>
         </td>
-        <td style="width:350px">
+        <td width=500px">
         <center><img src="Images/Gravity.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -293,7 +295,7 @@ b.setClickedListener(new Component.ClickedListener() {
 **Example3: Changing scroll-direction & adding animation effect**
 <table>
     <tr>
-        <td style="width:560px">
+        <td width=500px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -341,7 +343,7 @@ b.setClickedListener(new Component.ClickedListener() {
 });
         </pre>
         </td>
-        <td style="width:350px">
+        <td width=500px">
         <center><img src="Images/ScrollDirection.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
