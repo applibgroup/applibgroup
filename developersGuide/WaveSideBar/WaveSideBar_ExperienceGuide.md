@@ -136,15 +136,19 @@ This section will help us to understand the usage of the library as you use it i
 ### **List of XML attributes supported**
 Below is the list of XML attributes which are supported by the library.
 
-| name                   | type      | info                                                   |
-|------------------------|-----------|--------------------------------------------------------|
-| WaveSideBar_sidebar_text_color          | color     | To specify the text color of WaveSideBar                |
-| WaveSideBar_sidebar_position          | int   | To specify WaveSideBar position                 |
-| WaveSideBar_sidebar_max_offset    | int     | To set Wave offset of the WaveSideBar |
-| WaveSideBar_sidebar_lazy_respond          | boolean     | To set the response of the index selection                                     |
-| WaveSideBar_sidebar_text_alignment | int | To specify text alignment                    |
-| WaveSideBar_sidebar_text_size     | dimension | To specify text size                        |
-
+<table>
+	<tr>
+		<th width="30%">Name</th>
+		<th>width="60%"Type</th>
+		<thwidth="100%">Info</th>
+	</tr>
+	<tr><td>WaveSideBar_sidebar_text_color</td><td>color</td><td>To specify the text color of WaveSideBar</td></tr>
+	<tr><td>WaveSideBar_sidebar_position</td><td>int</td><td>To specify WaveSideBar position</td></tr>
+	<tr><td>WaveSideBar_sidebar_max_offset</td><td>int</td><td>To set Wave offset of the WaveSideBar</td></tr>
+	<tr><td>WaveSideBar_sidebar_lazy_respond</td><td>boolean</td><td>To set the response of the index selection</td></tr>
+	<tr><td>WaveSideBar_sidebar_text_alignment</td><td>int</td><td>To specify text alignment</td></tr>
+	<tr><td>WaveSideBar_sidebar_text_size</td><td>dimension</td><td>To specify text size</td></tr>
+</table>	
 
 
 ### **List of public APIs for app-developer**
