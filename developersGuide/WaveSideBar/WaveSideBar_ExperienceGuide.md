@@ -365,7 +365,7 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 **Example8: Setting the OnSelectIndexItemListener interface and implementing the abstract methods**
 <table>
     <tr>
-        <td width="60%">
+        <td width="75%">
         <pre>
 <b><u>Java Slice</u>:</b>
 WaveSideBar sideBar = 
@@ -386,7 +386,7 @@ WaveSideBar sideBar =
         </pre>
         </td>
         <td width="100%">
-        <center><img src="WaveSideBarDocImgs/select.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
+        <center><img src="WaveSideBarDocImgs/select.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
