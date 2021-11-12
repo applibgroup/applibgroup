@@ -316,15 +316,13 @@ You can load animation from different sources into LottieAnimationView component
         data.setRepeatCount(repeatCount);
         data.autoPlay = true;
         lv.setAnimationData(data);
-</pre>
-</td>
-</tr>
-
-        <td>
+      </pre>
+      </td>
+      <td>
         <p>The following animation shows loading animation from the ZIP</p>
         <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
-        </td>
-
+      </td>
+  </tr>
 </table><br>
 
  #### Loading animation from URL<br>
