@@ -139,7 +139,7 @@ Below is the list of XML attributes which are supported by the library.
 <table>
 	<tr>
 		<th width="30%">Name</th>
-		<th width="20%">Type</th>
+		<th width="30%">Type</th>
 		<th width="100%">Info</th>
 	</tr>
 	<tr><td>WaveSideBar_sidebar_text_color</td><td>color</td><td>To specify the text color of WaveSideBar</td></tr>
@@ -159,7 +159,7 @@ The public methods below will help us to operate on the component at runtime.
 <table>
 	<tr>
 		<th width="30%">Name</th>
-		<th width="60%">Type</th>
+		<th width="30%">Type</th>
 		<th width="100%">Info</th>
 	</tr>
 	<tr><td>setIndexItems()</td><td>String array</td><td>To specify the text color of WaveSideBar</td></tr>
