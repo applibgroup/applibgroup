@@ -159,7 +159,7 @@ The public methods below will help us to operate on the component at runtime.
 <table width="100%">
 	<tr>
 		<th width="30%">Name</th>
-		<th width="65%">Type</th>
+		<th width="20%">Type</th>
 		<th width="100%">Info</th>
 	</tr>
 	<tr><td>setIndexItems()</td><td>String array</td><td>To specify the text color of WaveSideBar</td></tr>
