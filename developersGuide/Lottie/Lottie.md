@@ -275,7 +275,7 @@ You can load animation from different sources into LottieAnimationView component
 #### **Loading lottie animation from res/raw folder**<br>
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -292,7 +292,7 @@ You can load animation from different sources into LottieAnimationView component
         lv.setAnimationData(data);
         </pre>
         </td>
-        <td>
+        <td width="300px">
         <center><img src="LottieImages/lottieexample1.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:50px 50px;"></center>
         </td>
     </tr>
@@ -301,7 +301,7 @@ You can load animation from different sources into LottieAnimationView component
 #### **Loading Animation from ZIP**
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -318,7 +318,7 @@ You can load animation from different sources into LottieAnimationView component
         lv.setAnimationData(data);
       </pre>
       </td>
-      <td>
+      <td width="300px">
         <p>The following animation shows loading animation from the ZIP</p>
         <center><img src="LottieImages/lottiezip.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
       </td>
@@ -328,7 +328,7 @@ You can load animation from different sources into LottieAnimationView component
  #### Loading animation from URL<br>
    <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -343,7 +343,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
         lv.setAnimationData(data);
         </pre>
         </td>
-        <td>
+        <td width="300px">
         <center><img src="LottieImages/lottieurl.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
         </td>
     </tr>
@@ -354,7 +354,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
 To change the animation repetition count.,In the following example Lottie library should display animation according to the repetition count specified
 <table>
     <tr>
-        <td>
+        <td width="700px">
         <pre>
 <b><u>Layout.xml</u>:</b><br>
 &ltcom.airbnb.lottie.LottieAnimationView
@@ -370,7 +370,7 @@ LottieAnimationViewData data = new LottieAnimationViewData();
 </br>
 </pre>
   </td>
-     <td>
+     <td width="300px">
         <center><img src="LottieImages/lottiecount.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:20px 20px;"></center>
     </td>
 </tr>
