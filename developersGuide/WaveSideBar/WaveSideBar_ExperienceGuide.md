@@ -9,7 +9,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.gjiazhe.wavesidebar, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+    <table>
     <tr>
         <td>
             <ul><b>WaveSideBar</b> in contact list.</ul>
@@ -22,7 +23,8 @@ This library - com.gjiazhe.wavesidebar, is very useful in the development of app
         <td><center><img src="WaveSideBarDocImgs/contacts.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
         <td><center><img src="WaveSideBarDocImgs/anylist.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
@@ -184,7 +186,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 In this example, we are setting the index list of the WaveSideBar.
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -201,7 +203,7 @@ WaveSideBar sideBar =
                 "は", "ま", "や", "ら", "わ");</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/index.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -210,7 +212,7 @@ WaveSideBar sideBar =
 **Example2: Setting text color**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -226,7 +228,7 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 <b style="color:blue;">sideBar.setTextColor(Color.BLUE);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/textcolor.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -235,7 +237,7 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 **Example3: Setting position of the bar**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -251,16 +253,16 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 <b style="color:blue;">sideBar.setPosition(WaveSideBar.POSITION_LEFT);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/position.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
 
-**Example3: Setting the max offset**
+**Example4: Setting the max offset**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -276,16 +278,16 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 <b style="color:blue;">sideBar.setMaxOffset(80);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/offset.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
 
-**Example3: Setting Lazy Response**
+**Example5: Setting Lazy Response**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -301,16 +303,16 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 <b style="color:blue;">sideBar.setLazyRespond(true);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/response.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
 
-**Example3: Setting Text Alignment**
+**Example6: Setting Text Alignment**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -329,16 +331,16 @@ sideBar.setIndexItems("a", "aa", "ace", "ad", "adv", "ae",
 <b style="color:blue;">sideBar.setTextAlign(WaveSideBar.TEXT_ALIGN_CENTER);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/alignment.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
 
-**Example3: Setting Text size**
+**Example7: Setting Text size**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt com.gjiazhe.wavesidebar.WaveSideBar
@@ -354,16 +356,16 @@ WaveSideBar sideBar = new WaveSideBar(getContext());
 <b style="color:blue;">sideBar.setTextSize(18);</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
 
-**Example3: Setting the OnSelectIndexItemListener interface and implementing the abstract methods**
+**Example8: Setting the OnSelectIndexItemListener interface and implementing the abstract methods**
 <table>
     <tr>
-        <td>
+        <td width="75%">
         <pre>
 <b><u>Java Slice</u>:</b>
 WaveSideBar sideBar = 
@@ -383,7 +385,7 @@ WaveSideBar sideBar =
       });</b>
         </pre>
         </td>
-        <td>
+        <td width="100%">
         <center><img src="WaveSideBarDocImgs/select.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
         </td>
     </tr>
