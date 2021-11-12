@@ -173,8 +173,8 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 	<tr>
-		<th width="500px">Interface</th>
-		<th width="500px">Interface Methods</th>
+		<th width="490px">Interface</th>
+		<th width="490px">Interface Methods</th>
 	</tr>
 	<tr>
 		<td>
