@@ -199,7 +199,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 In this example, we are setting the initial text via the layout.xml
 <table>
     <tr>
-        <td width=500px">
+        <td width=700px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -236,7 +236,7 @@ b.setClickedListener(new Component.ClickedListener() {
 });
         </pre>
         </td>
-        <td width=500px">
+        <td width=300px">
         <center><img src="Images/RollOn.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -245,7 +245,7 @@ b.setClickedListener(new Component.ClickedListener() {
 **Example2: Aligning ticker-text within the  ticker component**
 <table>
     <tr>
-        <td width=500px">
+        <td width=700px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -286,7 +286,7 @@ b.setClickedListener(new Component.ClickedListener() {
 </b>
         </pre>
         </td>
-        <td width=500px">
+        <td width=300px">
         <center><img src="Images/Gravity.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -295,7 +295,7 @@ b.setClickedListener(new Component.ClickedListener() {
 **Example3: Changing scroll-direction & adding animation effect**
 <table>
     <tr>
-        <td width=500px">
+        <td width=700px">
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.robinhood.ticker.TickerView
@@ -343,7 +343,7 @@ b.setClickedListener(new Component.ClickedListener() {
 });
         </pre>
         </td>
-        <td width=500px">
+        <td width=300px">
         <center><img src="Images/ScrollDirection.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
