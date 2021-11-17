@@ -9,20 +9,22 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - com.devs.squaremenu.SquareMenu, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
-        <td>
+        <td width="50%">
             <ul><li><b>Contact List delete</b></br>Deleting the selected contact using sub menu</li><ul>
         </td>
-        <td>
+        <td width="100%">
             <ul><li><b>Contact dial</b></br>Dailing the selected contact using sub menu</li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="SquareMenuDocImgs/maindelete.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="SquareMenuDocImgs/maindail.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="SquareMenuDocImgs/maindelete.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="SquareMenuDocImgs/maindail.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
@@ -154,17 +156,20 @@ The public methods below will help us to operate on the component at runtime.
 	</tr>
 	<tr>
 		<td>
+			<div align="center">
 			<table> 
 					<th>name</th>
-					<th width="100%">info</th>
+					<th>info</th>
 				</tr>
 				<tr>
 					<td>getFABColor() </td>
 					<td> Get the sqauremenu color</td>
 				</tr> 
 			</table>
+			</div>
 		</td>
 		<td width="100%">
+			<div align="center">
 			<table>
 				<tr>
 					<th>name</th>
@@ -175,6 +180,7 @@ The public methods below will help us to operate on the component at runtime.
 					<td>Get the menu open direction.</td>
 				</tr>
 			</table>
+			</div>
 		</td>
 	</tr>
 </table>
@@ -188,8 +194,8 @@ The public methods below will help us to operate on the component at runtime.
 		<td>
 			<table> <tr><th>name</th><th width="100%">info</th></tr><tr><td>OnMenuClickListener </td><td>Implement click listerner to menu</td></tr> </table>
 		</td>
-		<td  width="100%">
-			<table> <tr><th>name</th><th>info</th></tr><tr><td>onMenuOpen()</td><td>when menu is opened</td></tr><tr><td>onMenuClose()</td><td>when menu is closed</td></tr><tr><td>onClickMenu1()</td><td>when menu 1 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 2 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 3 is opened</td></tr> </table>
+		<td width="100%">
+			<div align="center"><table> <tr><th>name</th><th>info</th></tr><tr><td>onMenuOpen()</td><td>when menu is opened</td></tr><tr><td>onMenuClose()</td><td>when menu is closed</td></tr><tr><td>onClickMenu1()</td><td>when menu 1 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 2 is opened</td></tr><tr><td>onClickMenu2()</td><td>when menu 3 is opened</td></tr> </table></div>
 		</td>
 	</tr>
 </table>
@@ -198,7 +204,7 @@ The public methods below will help us to operate on the component at runtime.
 In this section, we can have a look at some of the examples where the APIs of this library is put to use and the results which we can acheive.
 
 **Example1: Customising squareFabSize attribute**  |
-<table>
+<table style="width: 100%">
     <tr >
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -217,14 +223,14 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td>
-        <center><img src="SquareMenuDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width="100%">
+        <p align="center"><img src="SquareMenuDocImgs/size.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 **Example2: Setting the icon for sub menu 1**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -243,14 +249,14 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td >
-        <center><img src="SquareMenuDocImgs/menu1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width="100%">
+        <p align="center"><img src="SquareMenuDocImgs/menu1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 **Example3: Setting the icon for sub menu 2**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -269,14 +275,14 @@ In this section, we can have a look at some of the examples where the APIs of th
 </br>
         </pre>
         </td>
-        <td width="50%">
-        <center><img src="SquareMenuDocImgs/menu2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width="100%">
+        <p align="center"><img src="SquareMenuDocImgs/menu2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 **Example4: Setting the icon for sub menu 3**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -296,7 +302,7 @@ In this section, we can have a look at some of the examples where the APIs of th
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/menu3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menu3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -305,7 +311,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 
 
 In this example, setting the color of the squaremenu to blue in layout.xml. The color code is in [RGB-format](https://htmlcolorcodes.com/)
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -331,14 +337,14 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td width="50%">
-        <center><img src="SquareMenuDocImgs/color.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/color.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 
 **Example6: Setting the auto close property**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -365,13 +371,13 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/autoclose.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/autoclose.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 **Example7: Setting the menu open direction**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -398,13 +404,13 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td >
-        <center><img src="SquareMenuDocImgs/main1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/main1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
 **Example8: Setting the Click Listener to the menu calling setOnMenuClickListener by passing the OnMenuClickListener interface and implementing the abstract methods**
-<table>
+<table style="width: 100%">
     <tr>
         <td width="50%">
 <b><u>Java Slice</u>:</b>
@@ -436,7 +442,7 @@ mSquareMenu = (SquareMenu) findComponentById(ResourceTable.Id_sm);
         </pre>
         </td>
         <td width="50%">
-        <center><img src="SquareMenuDocImgs/menuclick.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="SquareMenuDocImgs/menuclick.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
