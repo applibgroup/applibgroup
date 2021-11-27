@@ -156,7 +156,7 @@ findComponentById(ResourceTable.Id_divider);
         </pre>
         </td>
         <td width=300px">
-        <center><img src="FGELVImages/image3.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
+        <p align="center"><img src="FGELVImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -185,7 +185,7 @@ fv = (FloatingGroupExpandableListView)
         </pre>
         </td>
         <td width=300px">
-        <center><img src="FGELVImages/image4.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
+        <p align="center"><img src="FGELVImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -219,7 +219,7 @@ fv = (FloatingGroupExpandableListView)
         </pre>
         </td>
         <td width=300px">
-        <center><img src="FGELVImages/image5.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
+        <p align="center"><img src="FGELVImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
