@@ -11,7 +11,8 @@ The size of the SlidingDrawer defines how much space the content will occupy onc
 This library - hollowsoft.demo.slidingdrawer, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Banking</b></br>Internet Banking, is an electronic payment system </li><ul>
@@ -21,12 +22,11 @@ This library - hollowsoft.demo.slidingdrawer, is very useful in the development 
         </td>
     </tr>
     <tr>
-        <td width="50%"><p align="center"><img src="SDrawerImages/image1.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
-        <td width="100%"><p align="center"><img src="SDrawerImages/image2.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="SDrawerImages/image1.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="SDrawerImages/image2.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p></td>
     </tr>
-</table></center>
-
-
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanism.
@@ -171,7 +171,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: Sliding with Customizing the Content**
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &lthollowsoft.slidingdrawer.SlidingDrawer
@@ -202,8 +202,8 @@ viewHandle.setLayoutConfig(l);
    viewHandle.setBackground(dynamic);
         </pre>
         </td>
-        <td >
-        <center><img src="SDrawerImages/image3.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px">
+        <p align="center"><img src="SDrawerImages/image3.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -212,7 +212,7 @@ viewHandle.setLayoutConfig(l);
 **Example2: SlidingDrawer With Support Callback**
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &lthollowsoft.slidingdrawer.SlidingDrawer
@@ -239,8 +239,8 @@ PositionLayout.LayoutConfig l =
         drawer.setOnDrawerScrollListener(this); </b>
         </pre>
         </td>
-        <td >
-        <center><img src="SDrawerImages/image4.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px">
+        <p align="center"><img src="SDrawerImages/image4.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -249,7 +249,7 @@ PositionLayout.LayoutConfig l =
 **Example3: SlidingDrawer with Customizing the Handle****
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &lthollowsoft.slidingdrawer.SlidingDrawer
@@ -284,8 +284,8 @@ PositionLayout.LayoutConfig l =
     viewHandle.addComponent(image);
         </pre>
         </td>
-        <td >
-        <center><img src="SDrawerImages/image5.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px">
+        <p align="center"><img src="SDrawerImages/image5.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p>
         </td>
     </tr>
 </table>
