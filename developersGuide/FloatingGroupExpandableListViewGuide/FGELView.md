@@ -9,7 +9,8 @@ FloatingGroupExpandableListView is an open source library that provides a floati
 This library - com.diegocarloslima.fgelv.lib, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Group Items</b></br>The FloatingGroupExpandableListView displayed in a group items </li><ul>
@@ -19,10 +20,11 @@ This library - com.diegocarloslima.fgelv.lib, is very useful in the development 
         </td>
     </tr>
     <tr>
-        <td><center><img src="FGELVImages/image1.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center></td>
-        <td><center><img src="FGELVImages/image2.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="FGELVImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="FGELVImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
@@ -123,7 +125,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: FloatingGroupExpandableListView with Group and Child Icons & Text**
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.diegocarloslima.fgelv.lib.FloatingGroupExpandableListView
@@ -153,7 +155,7 @@ findComponentById(ResourceTable.Id_divider);
  prepareExpandableListAdapter();
         </pre>
         </td>
-        <td >
+        <td width=300px">
         <center><img src="FGELVImages/image3.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
         </td>
     </tr>
@@ -163,7 +165,7 @@ findComponentById(ResourceTable.Id_divider);
 **Example2: FloatingGroupExpandableListView Without Group and Child Icons**
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.diegocarloslima.fgelv.lib.FloatingGroupExpandableListView
@@ -182,7 +184,7 @@ fv = (FloatingGroupExpandableListView)
         mGroupContainer.setAdapter(expandableListAdapter);
         </pre>
         </td>
-        <td >
+        <td width=300px">
         <center><img src="FGELVImages/image4.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
         </td>
     </tr>
@@ -192,7 +194,7 @@ fv = (FloatingGroupExpandableListView)
 **Example3: FloatingGroupExpandableListView with SlidingDrawer****
 <table>
     <tr>
-        <td >
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.diegocarloslima.fgelv.lib.FloatingGroupExpandableListView
@@ -216,7 +218,7 @@ fv = (FloatingGroupExpandableListView)
         mGroupContainer.setAdapter(expandableListAdapter);
         </pre>
         </td>
-        <td >
+        <td width=300px">
         <center><img src="FGELVImages/image5.gif" alt="Italian Trulli" style="width:250px;height:400px;"></center>
         </td>
     </tr>
