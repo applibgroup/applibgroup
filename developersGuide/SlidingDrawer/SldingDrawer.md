@@ -21,8 +21,8 @@ This library - hollowsoft.demo.slidingdrawer, is very useful in the development 
         </td>
     </tr>
     <tr>
-        <td><center><img src="SDrawerImages/image1.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
-        <td><center><img src="SDrawerImages/image2.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="SDrawerImages/image1.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="SDrawerImages/image2.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
     </tr>
 </table></center>
 
