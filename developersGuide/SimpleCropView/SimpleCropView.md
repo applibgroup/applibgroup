@@ -35,8 +35,8 @@ This library - com.isseiaoki.simplecropview, is very useful in the development o
         </td>
     </tr>
     <tr>
-        <td><center><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
-        <td><center><img src="SimpleCropView/CropHeader.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
+        <td width="50%"><p align="center"><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
+        <td width="100%"><p align="center"><img src="SimpleCropView/CropHeader.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
     </tr>
 </table></center>
 
@@ -265,12 +265,8 @@ In this section, we can have a look at some of the examples where the APIs of th
 Image can be cropped in Rect with predefined aspect ratio.FIT_IMAGE、RATIO_4_3、RATIO_3_4、SQUARE、RATIO_16_9、RATIO_9_16、FREE
 
 <table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
-</colgroup>
 <tr>
-<td>
+<td width=70%>
 <pre>
 <b><u>Java Slice</u>:</b><br>
 <b style="color:green;">//Load the image</b>
@@ -289,10 +285,10 @@ cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 
 </pre>
 </td>
-<td>
-    <center><img src="SimpleCropView/RectUsage.gif" alt="Italian Trulli" width="200px"
+<td width=30%>
+    <p align="center"><img src="SimpleCropView/RectUsage.gif" alt="Italian Trulli" width="200px"
     height="400px" style="margin:30px 30px;
-    overflow:hidden;"></center>
+    overflow:hidden;"></p>
 </td>
 </tr>
 </table>
@@ -300,12 +296,8 @@ cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 ### Example2: Circle Image crop and save
 Image can be cropped in Circle with predefined methods.CIRCLE、 CIRCLE_SQUARE
 <table style="width: 100%; backgrund">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
-        <td>
+        <td width=70%>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 <b style="color:green;">//Load the image</b>
@@ -323,9 +315,9 @@ cropImageView.setCropMode(CropImageView.CropMode.CIRCLE);
                                     }
 </pre>
 </td>
-    <td>
-        <center><img src="SimpleCropView/CircleUsage.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:30px 30px;
-        overflow:hidden;"></center>
+    <td width=30%>
+        <p align="center"><img src="SimpleCropView/CircleUsage.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:30px 30px;
+        overflow:hidden;"></p>
     </td>
     </tr>
 </table><br>
@@ -334,12 +326,8 @@ cropImageView.setCropMode(CropImageView.CropMode.CIRCLE);
  Set of operation on image can also be performed on XML parameters for handle,guide stroke,background colour,default trim mode etc
  
 <table style="width: 100%; backgrund">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
-        <td>
+        <td width=70%>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 <b style="color:green;">//Load the image</b>
@@ -379,8 +367,8 @@ cropImageView.load(uri).execute(new LoadCallback()<br>
    
 </pre>
 </td>
-    <td>
-        <center><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+    <td width=30%>
+        <p align="center"><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></p>
     </td>
     </tr>
 </table><br>
@@ -391,12 +379,8 @@ cropImageView.load(uri).execute(new LoadCallback()<br>
 
 Library supports Rxjava for event based and asynchronus loading of images by observable emmiting images and subscriber consuming it.
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
-        <td>
+        <td width=70%>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 
@@ -454,8 +438,8 @@ Library supports Rxjava for event based and asynchronus loading of images by obs
 </br>
 </pre>
   </td>
-     <td>
-        <center><img src="SimpleCropView/RxJavaUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+     <td width=30%>
+        <p align="center"><img src="SimpleCropView/RxJavaUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></p>
     </td>
 </tr>
 </table><br>
@@ -465,12 +449,8 @@ Library supports Rxjava for event based and asynchronus loading of images by obs
 Guide and Handle can be customized for better selection of the image which can be done either using cml layout or Java Api's
 
 <table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
-</colgroup>
 <tr>
-<td>
+<td width=70%>
 <pre>
 <b><u>Java Slice</u>:</b><br>
 <b style="color:green;">//Load the image</b>
@@ -510,10 +490,10 @@ cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 
 </pre>
 </td>
-<td>
-    <center><img src="SimpleCropView/HandleUsage.gif" alt="Italian Trulli" width="200px"
+<td width=30%>
+    <p align="center"><img src="SimpleCropView/HandleUsage.gif" alt="Italian Trulli" width="200px"
     height="400px" style="margin:30px 30px;
-    overflow:hidden;"></center>
+    overflow:hidden;"></p>
 </td>
 </tr>
 </table>
