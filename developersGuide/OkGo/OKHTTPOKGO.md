@@ -9,7 +9,8 @@ Stars
 This library - com.lzy.demo, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Load Image</b></br>Load from image from server using OkhttpokGo Library  I prefer always to download photos in background, to do so using OkHttpClient, you should use callback:</li><ul>
@@ -19,11 +20,11 @@ This library - com.lzy.demo, is very useful in the development of applications w
         </td>
     </tr>
     <tr>
-        <td><center><img src="OKHTPPGOImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="OKHTPPGOImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="OKHTPPGOImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="OKHTPPGOImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -214,7 +215,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: okhttp-OkGo with Get Method**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
        &ltButton
@@ -248,8 +249,8 @@ In this section, we can have a look at some the examples where the APIs of this 
     }
         </pre>
         </td>
-        <td >
-        <center><img src="OKHTPPGOImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OKHTPPGOImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -258,7 +259,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2: okhttp-OkGo With Download Method **
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
        &ltButton
@@ -291,8 +292,8 @@ In this section, we can have a look at some the examples where the APIs of this 
     }
         </pre>
         </td>
-        <td >
-        <center><img src="OKHTPPGOImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OKHTPPGOImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -301,7 +302,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example3: okhttp-OkGo with PATCH Method****
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
        &ltButton
@@ -334,8 +335,8 @@ In this section, we can have a look at some the examples where the APIs of this 
     }
         </pre>
         </td>
-        <td >
-        <center><img src="OKHTPPGOImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OKHTPPGOImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
