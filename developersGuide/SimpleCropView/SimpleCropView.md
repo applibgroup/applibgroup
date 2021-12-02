@@ -273,7 +273,8 @@ Image can be cropped in Rect with predefined aspect ratio.FIT_IMAGE、RATIO_4_3�
 cropImageView.load(uri).execute(new LoadCallback()
 
 <b style="color:green;">//Trim/Crop the image</b>
-<b style="color:green;">//Aspect ratio Image can be cropped in Rect with predefined aspect ratio.FIT_IMAGE、RATIO_4_3、RATIO_3_4、SQUARE、RATIO_16_9、RATIO_9_16、FREE
+<b style="color:green;">//Aspect ratio Image can be cropped in Rect with predefined aspect ratio.
+FIT_IMAGE、RATIO_4_3、RATIO_3_4、SQUARE、RATIO_16_9、RATIO_9_16、FREE
 can be selected.</b>
 cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 <b style="color:green;">//Save the image</b>
@@ -303,7 +304,8 @@ Image can be cropped in Circle with predefined methods.CIRCLE、 CIRCLE_SQUARE
 <b style="color:green;">//Load the image</b>
 cropImageView.load(uri).execute(new LoadCallback()
    <b style="color:green;">//Trim/Crop the image</b>
-<b style="color:green;">//Aspect ratio Image can be cropped in Rect with predefined aspect ratio.CIRCLE、 CIRCLE_SQUARE.</b>
+<b style="color:green;">//Aspect ratio Image can be cropped in Rect with predefined aspect 
+ratio.CIRCLE、 CIRCLE_SQUARE.</b>
 cropImageView.setCropMode(CropImageView.CropMode.CIRCLE);
 <b style="color:green;">//Save the image</b>
   cropImageView.save(cropped)
