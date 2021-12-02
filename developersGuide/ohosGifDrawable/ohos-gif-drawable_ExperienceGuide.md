@@ -16,7 +16,7 @@ This library - pl.droidsonroids.gif, is very useful in the development of applic
         </td>
     </tr>
     <tr>
-        <td><center><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table></center>
 
@@ -107,7 +107,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 In this example, we are creating the GifDrawable and set it to GifImageView.
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
     &lt pl.droidsonroids.gif.GifImageView
@@ -139,9 +139,9 @@ GifImageView gifImageView = (GifImageView) rootLayout
 gifImageView.setImageElement(gifDrawable);	
 </b>		
         </pre>
-        </td>
+        </td width=300px>
         <td>
-        <center><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -149,7 +149,7 @@ gifImageView.setImageElement(gifDrawable);
 **Example2: Setting GifDrawable to GifTextView**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt DirectionalLayout
@@ -200,8 +200,8 @@ gifImageView.setImageElement(gifDrawable);
     <b style="color:blue;">textBackground.setBackgroundElement(background);</b>
     </pre>
         </td>
-        <td>
-        <center><img src="OhosGifDrawableDocImgs/3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OhosGifDrawableDocImgs/3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -209,7 +209,7 @@ gifImageView.setImageElement(gifDrawable);
 **Example3: Gif Animation Control**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt pl.droidsonroids.gif.GifImageView
@@ -235,8 +235,8 @@ gifImageView.setImageElement(gifDrawable);
     drawable.seekToFrameAndGet(1);</b>
         </pre>
         </td>
-        <td>
-        <center><img src="OhosGifDrawableDocImgs/4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OhosGifDrawableDocImgs/4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -244,7 +244,7 @@ gifImageView.setImageElement(gifDrawable);
 **Example4s: GifDecoder**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt DirectionalLayout
@@ -293,8 +293,8 @@ gifImageView.setImageElement(gifDrawable);
     handler.postTask(task, duration);                                      
         </pre>
         </td>
-        <td>
-        <center><img src="OhosGifDrawableDocImgs/2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="OhosGifDrawableDocImgs/2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
