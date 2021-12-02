@@ -383,57 +383,57 @@ Library supports Rxjava for event based and asynchronus loading of images by obs
         <pre>
 <b><u>Java Slice</u>:</b><br>
 
-               cropImageView.crop(uri)
-                    .executeAsSingle()
-                    .flatMap(new Function<PixelMap, 
-                    SingleSource<Uri>>() {
-                    @Override
-                    public SingleSource<Uri> 
-                    apply(@io.reactivex.annotations.NonNull PixelMap 
-                    bitmap)
+cropImageView.crop(uri)
+     .executeAsSingle()
+     .flatMap(new Function<PixelMap, 
+     SingleSource<Uri>>() {
+     @Override
+     public SingleSource<Uri> 
+     apply(@io.reactivex.annotations.NonNull PixelMap 
+     bitmap)
+     throws Exception {
+     cropImageView.getContext().getUITaskDispatcher().asyncDispatch(new Runnable() {
+                 @Override
+                 public void run() {
+                 image1.setPixelMap(bitmap);
+                 image1.
+                 setVisibility(Component.VISIBLE);
+                 cropImageView.
+                 setVisibility(Component.INVISIBLE);
+                    }
+                });
+                return cropImageView.save(bitmap)         
+                 .executeAsSingle(Uri.parse(uriPath));
+            }
+        })
+              .doOnSubscribe(new Consumer<Disposable>() {
+              @Override
+              public void accept(@io.reactivex.annotations.NonNull Disposable disposable)
+
+     .
+        .subscribeOn(Schedulers.newThread())
+        .subscribe(new Consumer<Uri>() {
+            @Override
+            public void accept(@io.reactivex.annotations.NonNull Uri uri11) throws Exception {
+                File file = new File(uri11.getDecodedPath());
+                emitter.onComplete();
+
+            }
+        }, new Consumer<Throwable>() {
+            @Override
+            public void accept(@io.reactivex.annotations.NonNull Throwable throwable)
                     throws Exception {
-                    cropImageView.getContext().getUITaskDispatcher().asyncDispatch(new Runnable() {
-                                @Override
-                                public void run() {
-                                image1.setPixelMap(bitmap);
-                                image1.
-                                setVisibility(Component.VISIBLE);
-                                cropImageView.
-                                setVisibility(Component.INVISIBLE);
-                                   }
-                               });
-                               return cropImageView.save(bitmap)         
-                                .executeAsSingle(Uri.parse(uriPath));
-                           }
-                       })
-                             .doOnSubscribe(new Consumer<Disposable>() {
-                             @Override
-                             public void accept(@io.reactivex.annotations.NonNull Disposable disposable)
-       
-                    .
-                       .subscribeOn(Schedulers.newThread())
-                       .subscribe(new Consumer<Uri>() {
-                           @Override
-                           public void accept(@io.reactivex.annotations.NonNull Uri uri11) throws Exception {
-                               File file = new File(uri11.getDecodedPath());
-                               emitter.onComplete();
+                emitter.onComplete();
+            }
+        });
+});
 
-                           }
-                       }, new Consumer<Throwable>() {
-                           @Override
-                           public void accept(@io.reactivex.annotations.NonNull Throwable throwable)
-                                   throws Exception {
-                               emitter.onComplete();
-                           }
-                       });
-           });
+observable.subscribe(new Consumer<Integer>() {
+    @Override
+    public void accept(Integer integer) throws Exception {
 
-           observable.subscribe(new Consumer<Integer>() {
-               @Override
-               public void accept(Integer integer) throws Exception {
-
-               }
-           });
+    }
+});
 </br>
 </pre>
   </td>
