@@ -287,9 +287,7 @@ cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 </pre>
 </td>
 <td width=300px>
-    <p align="center"><img src="SimpleCropView/RectUsage.gif" alt="Italian Trulli" width="200px"
-    height="400px" style="margin:30px 30px;
-    overflow:hidden;"></p>
+    <p align="center"><img src="SimpleCropView/RectUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
 </td>
 </tr>
 </table>
@@ -318,8 +316,7 @@ cropImageView.setCropMode(CropImageView.CropMode.CIRCLE);
 </pre>
 </td>
     <td width=300px>
-        <p align="center"><img src="SimpleCropView/CircleUsage.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:30px 30px;
-        overflow:hidden;"></p>
+        <p align="center"><img src="SimpleCropView/CircleUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
     </tr>
 </table><br>
@@ -370,7 +367,7 @@ cropImageView.load(uri).execute(new LoadCallback()<br>
 </pre>
 </td>
     <td width=300px>
-        <p align="center"><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></p>
+        <p align="center"><img src="SimpleCropView/TrimHeader.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
     </tr>
 </table><br>
@@ -441,7 +438,7 @@ Library supports Rxjava for event based and asynchronus loading of images by obs
 </pre>
   </td>
      <td width=300px>
-        <p align="center"><img src="SimpleCropView/RxJavaUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></p>
+        <p align="center"><img src="SimpleCropView/RxJavaUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
 </tr>
 </table><br>
@@ -493,9 +490,7 @@ cropImageView.setCropMode(CropImageView.CropMode.RATIO_3_4);
 </pre>
 </td>
 <td width=300px>
-    <p align="center"><img src="SimpleCropView/HandleUsage.gif" alt="Italian Trulli" width="200px"
-    height="400px" style="margin:30px 30px;
-    overflow:hidden;"></p>
+    <p align="center"><img src="SimpleCropView/HandleUsage.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
 </td>
 </tr>
 </table>
