@@ -9,7 +9,8 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/oh
 ## **2. Typical Use Cases**
 This library - pl.droidsonroids.gif, is very useful in the development of applications which are in our daily use. An example mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul>It can be used in any place where image can be shown.</ul>
@@ -18,7 +19,8 @@ This library - pl.droidsonroids.gif, is very useful in the development of applic
     <tr>
         <td width="100%"><p align="center"><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
@@ -139,8 +141,8 @@ GifImageView gifImageView = (GifImageView) rootLayout
 gifImageView.setImageElement(gifDrawable);	
 </b>		
         </pre>
-        </td width=300px>
-        <td>
+        </td>
+        <td width=300px>
         <p align="center"><img src="OhosGifDrawableDocImgs/1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
