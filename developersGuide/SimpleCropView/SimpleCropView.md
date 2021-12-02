@@ -409,15 +409,12 @@ cropImageView.crop(uri)
               .doOnSubscribe(new Consumer<Disposable>() {
               @Override
               public void accept(@io.reactivex.annotations.NonNull Disposable disposable)
-
-     .
         .subscribeOn(Schedulers.newThread())
         .subscribe(new Consumer<Uri>() {
             @Override
             public void accept(@io.reactivex.annotations.NonNull Uri uri11) throws Exception {
                 File file = new File(uri11.getDecodedPath());
                 emitter.onComplete();
-
             }
         }, new Consumer<Throwable>() {
             @Override
@@ -427,7 +424,6 @@ cropImageView.crop(uri)
             }
         });
 });
-
 observable.subscribe(new Consumer<Integer>() {
     @Override
     public void accept(Integer integer) throws Exception {
