@@ -601,7 +601,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example1: Customising Floating action button**
 Here are all the FloatingActionButton's xml attributes with their default values which means that you don't have to set all of them:
 
-<table>
+<table width="100%">
     <tr >
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
@@ -646,7 +646,7 @@ All of these FloatingActionButton's attributes has their corresponding getters a
 
 Here are all the FloatingActionMenu's xml attributes with their default values which means that you don't have to set all of them:
 
-<table>
+<table width="100%">
     <tr>
         <td width="50%">
         <b><u>Layout.xml</u>:</b>
