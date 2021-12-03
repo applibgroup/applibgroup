@@ -601,9 +601,9 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example1: Customising Floating action button**
 Here are all the FloatingActionButton's xml attributes with their default values which means that you don't have to set all of them:
 
-<table width="100%">
+<table>
     <tr >
-        <td width="50%">
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.github.clans.fab.FloatingActionButton
@@ -634,8 +634,8 @@ Here are all the FloatingActionButton's xml attributes with their default values
 </br>
         </pre>
         </td>
-        <td>
-        <center><img src="gif/button.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="gif/button.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -646,9 +646,9 @@ All of these FloatingActionButton's attributes has their corresponding getters a
 
 Here are all the FloatingActionMenu's xml attributes with their default values which means that you don't have to set all of them:
 
-<table width="100%">
+<table>
     <tr>
-        <td width="50%">
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.github.clans.fab.FloatingActionMenu
@@ -721,8 +721,8 @@ Here are all the FloatingActionMenu's xml attributes with their default values w
 </br>
         </pre>
         </td>
-        <td >
-        <center><img src="gif/menu.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="gif/menu.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
