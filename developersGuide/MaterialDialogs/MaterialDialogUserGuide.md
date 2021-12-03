@@ -286,7 +286,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
     <tr>
-        <td>
+        <td width=400px>
             <ul>
                 <li>titleSub(int titleSub)</li>
                 <li>tag(String tag)</li>
@@ -297,7 +297,7 @@ The public methods below will help us to operate on the component at runtime.
                 <li>show()</li>
             </ui>
         </td>
-        <td>
+        <td width=400px>
             <ul>
                 <li>backButton(int text)</li>
                 <li>cancelButton(int text)</li>
@@ -314,7 +314,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
     <tr>
-        <td>
+        <td width=400px>
             <ul>
                 <li>chooseButton(int text)</li>
                 <li>typeface(String medium, String regular)</li>
@@ -323,7 +323,7 @@ The public methods below will help us to operate on the component at runtime.
                 <li>build()</li>
             </ui>
         </td>
-        <td>
+        <td width=400px>
             <ul>
                 <li>initialPath(String initialPath)</li>
                 <li>tag(String tag)</li>
@@ -338,7 +338,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
     <tr>
-        <td>
+        <td width=400px>
             <ul>
                 <li>extensionsFilter(String... extensions)</li>
                 <li>typeface(String medium, String regular)</li>
@@ -347,7 +347,7 @@ The public methods below will help us to operate on the component at runtime.
                 <li>build()</li>
             </ui>
         </td>
-        <td>
+        <td width=400px>
             <ul>
                 <li>initialPath(String initialPath)</li>
                 <li>tag(String tag)</li>
