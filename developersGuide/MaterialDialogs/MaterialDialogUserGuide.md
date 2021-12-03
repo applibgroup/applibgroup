@@ -27,7 +27,9 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/ma
 This library - com.afollestad.materialdialogs, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Custom Dialogs</b></br>Containing actions that require a series of tasks to complete.</li><ul>
@@ -37,11 +39,11 @@ This library - com.afollestad.materialdialogs, is very useful in the development
         </td>
     </tr>
     <tr>
-        <td><center><img src="MaterialDialogImages/customview_dialog.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
-        <td><center><img src="MaterialDialogImages/confirmation_dialog.gif" alt="Italian Trulli" style="width:250px;height:470px;"></center></td>
+        <td width="50%"><p align="center"><img src="MaterialDialogImages/customview_dialog.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
+        <td width="100%"><p align="center"><img src="MaterialDialogImages/confirmation_dialog.gif" alt="Italian Trulli" style="width:250px;height:470px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -363,13 +365,9 @@ In this section, we can have a look at some of the examples where the APIs of th
 
 You can display a dialog with title, content and positive and negative buttons.
 
-<table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
-</colgroup>
+<table>
 <tr>
-<td>
+<td width=700px>
 <pre>
 <b><u>Java Slice</u>:</b><br>
 new MaterialDialog.Builder(this)
@@ -380,7 +378,7 @@ new MaterialDialog.Builder(this)
     .show();
 </pre>
 </td>
-<td>
+<td width=300px>
     <center><img src="MaterialDialogImages/basic_dialog.gif" alt="Italian Trulli" width="200px"
     height="400px" style="margin:30px 30px;
     overflow:hidden;"></center>
@@ -389,13 +387,9 @@ new MaterialDialog.Builder(this)
 </table>
 
 ### Example2: Display Dialog with icon
-<table style="width: 100%; backgrund">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 new MaterialDialog.Builder(this)
@@ -410,7 +404,7 @@ new MaterialDialog.Builder(this)
 
 </pre>
 </td>
-    <td>
+    <td width=300px>
         <center><img src="MaterialDialogImages/icon_dialog.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:30px 30px;
         overflow:hidden;"></center>
     </td>
@@ -418,13 +412,9 @@ new MaterialDialog.Builder(this)
 </table><br>
 
  ### Example3: Display Dialog with CheckBox Prompt
-   <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+   <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 new MaterialDialog.Builder(this)
@@ -459,7 +449,7 @@ new MaterialDialog.Builder(this)
     </b>.show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/checkbox_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
         </td>
     </tr>
@@ -477,13 +467,9 @@ And also it is providing action buttons stacked gravity by <b>GravityEnum.</b><b
 <b>CENTER</b>: It will arrange buttons from center of the dialog box.<br>
 <b>END</b>: It will arrange buttons from end of the dialog box.
 
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
  new MaterialDialog.Builder(this)
@@ -497,7 +483,7 @@ And also it is providing action buttons stacked gravity by <b>GravityEnum.</b><b
 </br>
 </pre>
   </td>
-     <td>
+     <td width=300px>
         <center><img src="MaterialDialogImages/stacked_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
     </td>
 </tr>
@@ -508,13 +494,9 @@ And also it is providing action buttons stacked gravity by <b>GravityEnum.</b><b
 Material Dialogs providing  different types of lists i.e., normal list, single choice list and multichoice list.And also we can create our own custom list items in dialog.
 
 #### Normal list in dialog
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
  new MaterialDialog.Builder(this)
@@ -533,20 +515,16 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
         .show();  
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/normal_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
         </td>
     </tr>
 </table>
 
 #### Single choice List in dialog
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
  new MaterialDialog.Builder(this)
@@ -567,7 +545,7 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
         .show();
  </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/single_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
         </td>
     </tr>
@@ -575,13 +553,9 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
 
 #### MultiChoice list in dialog 
 
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
  new MaterialDialog.Builder(this)
@@ -608,7 +582,7 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
     .show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/multichoice_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
         </td>
     </tr>
@@ -616,13 +590,9 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
 
 #### Custom list items in dialog 
 
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 <b style="color:blue">//First we need create MaterialSimpleListAdapter
@@ -662,7 +632,7 @@ new MaterialDialog.Builder(this)
                     .show();</b>
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/customlist_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
         </td>
     </tr>
@@ -674,12 +644,8 @@ Material Dialogs provding two types of progressbar i.e., circular and horizontal
 #### Indetermine Circular progressbar
 
 <table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 new MaterialDialog.Builder(this)
@@ -690,7 +656,7 @@ new MaterialDialog.Builder(this)
                 .show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/circular_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
         </td>
     </tr>
@@ -698,13 +664,9 @@ new MaterialDialog.Builder(this)
 
 ####  Horizontal progressbar
 
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 new MaterialDialog.Builder(this)
@@ -741,7 +703,7 @@ new MaterialDialog.Builder(this)
     .show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/horizontal_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
         </td>
     </tr>
@@ -752,13 +714,9 @@ new MaterialDialog.Builder(this)
 
 #### Built in color palette
  
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 new ColorChooserDialog.Builder(this,ResourceTable.String_color_palette)
@@ -768,7 +726,7 @@ new ColorChooserDialog.Builder(this,ResourceTable.String_color_palette)
                 .show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/built_in_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 10px"></center>
         </td>
     </tr>
@@ -776,13 +734,9 @@ new ColorChooserDialog.Builder(this,ResourceTable.String_color_palette)
 
 #### Custom color palette
  
-<table style="width: 100%;">
-    <colgroup>
-       <col span="1" style="width: 60%;">
-       <col span="1" style="width: 40%;">
-    </colgroup>
+<table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 Color[] customColorsNoSub = new Color[]{
@@ -797,7 +751,7 @@ new ColorChooserDialog.Builder(this, ResourceTable.
             .show();
         </pre>
         </td>
-        <td>
+        <td width=300px>
         <center><img src="MaterialDialogImages/custom_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
         </td>
     </tr>
