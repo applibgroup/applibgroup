@@ -9,7 +9,8 @@ To get started right away, head on to [Gitee](https://gitee.com/harmonyos-tpc/Fl
 ## **2. Typical Use Cases**
 This library - com.github.clans.fab, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Contact List dial</b></br>Dailling the selected contact using Button</li><ul>
@@ -19,11 +20,11 @@ This library - com.github.clans.fab, is very useful in the development of applic
         </td>
     </tr>
     <tr>
-        <td><center><img src="gif/Buttondemo.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="gif/Menudemo.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="gif/Buttondemo.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></p></td>
+        <td width="50%"><p align="center"><img src="gif/Menudemo.gif" alt="FloatingActionButton" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
