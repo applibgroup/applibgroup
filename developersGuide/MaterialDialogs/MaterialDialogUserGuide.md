@@ -379,9 +379,7 @@ new MaterialDialog.Builder(this)
 </pre>
 </td>
 <td width=300px>
-    <center><img src="MaterialDialogImages/basic_dialog.gif" alt="Italian Trulli" width="200px"
-    height="400px" style="margin:30px 30px;
-    overflow:hidden;"></center>
+    <p align="center"><img src="MaterialDialogImages/basic_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
 </td>
 </tr>
 </table>
@@ -405,8 +403,7 @@ new MaterialDialog.Builder(this)
 </pre>
 </td>
     <td width=300px>
-        <center><img src="MaterialDialogImages/icon_dialog.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:30px 30px;
-        overflow:hidden;"></center>
+        <p align="center"><img src="MaterialDialogImages/icon_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
     </tr>
 </table><br>
@@ -450,7 +447,7 @@ new MaterialDialog.Builder(this)
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/checkbox_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+        <p align="center"><img src="MaterialDialogImages/checkbox_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -484,7 +481,7 @@ And also it is providing action buttons stacked gravity by <b>GravityEnum.</b><b
 </pre>
   </td>
      <td width=300px>
-        <center><img src="MaterialDialogImages/stacked_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+        <p align="center"><img src="MaterialDialogImages/stacked_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
 </tr>
 </table><br>
@@ -516,7 +513,7 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/normal_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+        <p align="center"><img src="MaterialDialogImages/normal_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></p>
         </td>
     </tr>
 </table>
@@ -546,7 +543,7 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
  </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/single_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px;"></center>
+        <p align="center"><img src="MaterialDialogImages/single_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -583,7 +580,7 @@ Material Dialogs providing  different types of lists i.e., normal list, single c
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/multichoice_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
+        <p align="center"><img src="MaterialDialogImages/multichoice_list_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -633,7 +630,7 @@ new MaterialDialog.Builder(this)
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/customlist_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
+        <p align="center"><img src="MaterialDialogImages/customlist_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -657,7 +654,7 @@ new MaterialDialog.Builder(this)
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/circular_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
+        <p align="center"><img src="MaterialDialogImages/circular_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -704,7 +701,7 @@ new MaterialDialog.Builder(this)
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/horizontal_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
+        <p align="center"><img src="MaterialDialogImages/horizontal_progress_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -727,7 +724,7 @@ new ColorChooserDialog.Builder(this,ResourceTable.String_color_palette)
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/built_in_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 10px"></center>
+        <p align="center"><img src="MaterialDialogImages/built_in_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -752,7 +749,7 @@ new ColorChooserDialog.Builder(this, ResourceTable.
         </pre>
         </td>
         <td width=300px>
-        <center><img src="MaterialDialogImages/custom_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;margin:30px 30px"></center>
+        <p align="center"><img src="MaterialDialogImages/custom_color_palette_dialog.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
