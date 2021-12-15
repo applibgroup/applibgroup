@@ -52,13 +52,13 @@ Padding is used to reserve some space on the sides of the component drawn by the
 
 ## **5. Installation**
 For using the library in your HarmonyOS mobile app, you need to first install it by adding the below dependency in your entry/build.gradle file.
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
     <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:circleimageview:1.0.0'</b>
     testCompile 'junit:junit:4.12'
 }
-</pre>
+```
 
 ## **6. Usage**
 This section will help us to understand the usage of the library as you use it in your Harmony-application developemnt project.
