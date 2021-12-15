@@ -52,19 +52,20 @@ Padding is used to reserve some space on the sides of the component drawn by the
 
 ## **5. Installation**
 For using the library in your HarmonyOS mobile app, you need to first install it by adding the below dependency in your entry/build.gradle file.
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:circleimageview:1.0.0'</b>
+    implementation 'io.openharmony.tpc.thirdlib:circleimageview:1.0.0'
     testCompile 'junit:junit:4.12'
 }
-</pre>
+```
 
 ## **6. Usage**
 This section will help us to understand the usage of the library as you use it in your Harmony-application developemnt project.
 
 ### **Step 1: Define layout via XML**
 
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <DirectionalLayout
         xmlns:ohos="http://schemas.huawei.com/res/ohos"
@@ -85,9 +86,9 @@ This section will help us to understand the usage of the library as you use it i
                 app:civ_color="#000000"
                 app:civ_bg_color="#FF0000"/> 
     </DirectionalLayout>
-
+```
 ### **Step 2: Customize programmatically via Java API**
-
+```java
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
@@ -96,6 +97,7 @@ This section will help us to understand the usage of the library as you use it i
         civ = (CircleImageView)findComponentById(ResourceTable.Id_tempciv);
         civ.setBorderColor(Color.BLACK);
     }
+```
 
 ### **List of XML attributes supported**
 Below is the list of XML attributes which are supported by the library.
