@@ -55,7 +55,7 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 ```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:circleimageview:1.0.0'</b>
+    implementation 'io.openharmony.tpc.thirdlib:circleimageview:1.0.0'
     testCompile 'junit:junit:4.12'
 }
 ```
@@ -65,6 +65,7 @@ This section will help us to understand the usage of the library as you use it i
 
 ### **Step 1: Define layout via XML**
 
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <DirectionalLayout
         xmlns:ohos="http://schemas.huawei.com/res/ohos"
@@ -85,9 +86,9 @@ This section will help us to understand the usage of the library as you use it i
                 app:civ_color="#000000"
                 app:civ_bg_color="#FF0000"/> 
     </DirectionalLayout>
-
+```
 ### **Step 2: Customize programmatically via Java API**
-
+```java
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
@@ -96,6 +97,7 @@ This section will help us to understand the usage of the library as you use it i
         civ = (CircleImageView)findComponentById(ResourceTable.Id_tempciv);
         civ.setBorderColor(Color.BLACK);
     }
+```
 
 ### **List of XML attributes supported**
 Below is the list of XML attributes which are supported by the library.
@@ -165,8 +167,9 @@ In this example, first the background-color of the circleImageView is set to red
 <table>
     <tr>
         <td width="75%">
-        <pre>
+
 <b><u>Layout.xml</u>:</b>
+```xml
 &ltde.hdodenhof.circleimageview.CircleImageView
     ohos:id="$+id:tempciv"
     ohos:height="290vp"
@@ -178,14 +181,17 @@ In this example, first the background-color of the circleImageView is set to red
     app:civ_border_width="4vp"
     app:civ_color="#000000"
     <b style="color:blue;">app:civ_bg_color="#FF0000"</b>/>
+    ```
 </br>
 <b><u>Java Slice</u>:</b>
+```java
 CircleImageView civ;
 civ = (CircleImageView)
 findComponentById
 (ResourceTable.Id_tempciv);
 <b style="color:blue;">civ.setAlpha(0.5f);</b>
-        </pre>
+ ```           
+
         </td>
         <td width="100%">
         <center><img src="ExpDocImgs/TransparentCircleImageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
