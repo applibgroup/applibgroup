@@ -170,7 +170,7 @@ In this example, first the background-color of the circleImageView is set to red
 
 <b><u>Layout.xml</u>:</b>
 ```xml
-&ltde.hdodenhof.circleimageview.CircleImageView
+<de.hdodenhof.circleimageview.CircleImageView
     ohos:id="$+id:tempciv"
     ohos:height="290vp"
     ohos:width="290vp"
@@ -180,16 +180,16 @@ In this example, first the background-color of the circleImageView is set to red
     ohos:top_padding="10vp"
     app:civ_border_width="4vp"
     app:civ_color="#000000"
-    <b style="color:blue;">app:civ_bg_color="#FF0000"</b>/>
-    ```
+    app:civ_bg_color="#FF0000"/>
+```
 </br>
 <b><u>Java Slice</u>:</b>
 ```java
-CircleImageView civ;
-civ = (CircleImageView)
-findComponentById
-(ResourceTable.Id_tempciv);
-<b style="color:blue;">civ.setAlpha(0.5f);</b>
+    CircleImageView civ;
+    civ = (CircleImageView)
+    findComponentById
+    (ResourceTable.Id_tempciv);
+    civ.setAlpha(0.5f);
  ```           
 
         </td>
