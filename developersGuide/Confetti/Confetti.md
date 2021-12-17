@@ -63,14 +63,14 @@ This feature enables user to change orientation of particles animation
 ## **5. Installation**
 For using the library in your HarmonyOS mobile app, you need to first install it by following below methods.
 
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
     <b style="color:black;">implementation 'io.openharmony.tpc.thirdlib:confetti:1.0.5'</b>
 	testCompile 'junit:junit:4.12'
 
 }
-</pre>
+```
 
 
 ## **6. API usage examples**
