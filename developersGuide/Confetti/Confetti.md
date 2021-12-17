@@ -11,31 +11,34 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/co
 ## **2. Typical Use Cases**
 This library - com.github.jinatonic.confetti, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
-            <ul><li><b>Sending wishes with Single Stream Confetti</b></br></li><ul>
+        	<ul><li><b>Sending wishes with Single Stream Confetti</b></br></li><ul>
         </td>
-		<td>
-			<ul><li><b>Sending wishes with Confetti streaming for fixed duration</b></br></li><ul>
+	<td>
+		<ul><li><b>Sending wishes with Confetti streaming for fixed duration</b></br></li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="Confetti Images/Stream Once.gif" alt="Italian Trulli" style="width:200px;height:380px;"></center></td>
-		<td><center><img src="Confetti Images/Stream For Duration.gif" alt="Italian Trulli" style="width:200px;height:380px;"></center></td>
+        <td width="50%"><p align="center"><img src="Confetti Images/Stream Once.gif" alt="Italian Trulli" style="width:200px;height:380px;"></p></td>
+	<td width="50%"><p align="center"><img src="Confetti Images/Stream For Duration.gif" alt="Italian Trulli" style="width:200px;height:380px;"></p></td>
     </tr>
-</table></center>
-<center><table>
+</table>
+</div>
+<div align="center">
+<table>
 	<tr>
         <td>
-            <ul><li><b>Sending wishes with Infinite Stream Confetti</b></br></li><ul>
+        	<ul><li><b>Sending wishes with Infinite Stream Confetti</b></br></li><ul>
         </td>
 	</tr>
 	<tr>
-        <td><center><img src="Confetti Images/Infinite Stream.gif" alt="Italian Trulli" style="width:200px;height:380px;"></center></td>
-    </tr>	
-</table></center>
-
+        	<td width="50%"><p align="center"><img src="Confetti Images/Infinite Stream.gif" alt="Italian Trulli" style="width:200px;height:380px;"></p></td>
+    	</tr>	
+</table>
+</div>
 
 
 ## **3. Capability**
