@@ -117,7 +117,7 @@ streamBtn.setClickedListener(new Component.ClickedListener() {
 ### Example 2: Falling Confetti from Point with defined velocity and acceleration for particles<br>
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 
 <b><u>Java Slice</u>:</b>
@@ -143,10 +143,8 @@ streamBtn.setClickedListener(new Component.ClickedListener() {
         });
 </pre>
 </td>
-</tr>
-<tr>
-        <td>
-        <center><img src="Confetti Images/Falling Confetti From Point.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
+        <td width=300px>
+        <p align="center"><img src="Confetti Images/Falling Confetti From Point.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
