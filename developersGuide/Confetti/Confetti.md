@@ -65,10 +65,9 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 
 ```groovy
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:black;">implementation 'io.openharmony.tpc.thirdlib:confetti:1.0.5'</b>
+	implementation fileTree(dir: 'libs', include: ['*.har'])
+	implementation 'io.openharmony.tpc.thirdlib:confetti:1.0.5'
 	testCompile 'junit:junit:4.12'
-
 }
 ```
 
@@ -80,38 +79,37 @@ In this section, we can have a look at some the examples where the APIs of this 
 
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 
 <b><u>Java Slice</u>:</b>
 
-  DirectionalLayout componentContainer = findComponentById(ResourceTable.Id_directionalLayout);
-        Button streamBtn = findComponentById(ResourceTable.Id_streamWithDuration_btn);
-        ResourceManager resourceManager = getResourceManager();
-        try {
-            int goldDark = resourceManager.getElement(ResourceTable.Color_gold_dark).getColor();
-            int goldMed = resourceManager.getElement(ResourceTable.Color_gold_med).getColor();
-            int gold = resourceManager.getElement(ResourceTable.Color_gold2).getColor();
-            int goldLight = resourceManager.getElement(ResourceTable.Color_gold_light).getColor();
-            colors = new int[] {goldDark, goldMed, gold, goldLight};
-        } catch (IOException | NotExistException | WrongTypeException e) {
-            e.printStackTrace();
+DirectionalLayout componentContainer = findComponentById(ResourceTable.Id_directionalLayout);
+Button streamBtn = findComponentById(ResourceTable.Id_streamWithDuration_btn);
+ResourceManager resourceManager = getResourceManager();
+try {
+    int goldDark = resourceManager.getElement(ResourceTable.Color_gold_dark).getColor();
+    int goldMed = resourceManager.getElement(ResourceTable.Color_gold_med).getColor();
+    int gold = resourceManager.getElement(ResourceTable.Color_gold2).getColor();
+    int goldLight = resourceManager.getElement(ResourceTable.Color_gold_light).getColor();
+    colors = new int[] {goldDark, goldMed, gold, goldLight};
+} catch (IOException | NotExistException | WrongTypeException e) {
+    e.printStackTrace();
+}
+streamBtn.setClickedListener(new Component.ClickedListener() {
+    @Override
+    public void onClick(Component component) {
+        final int centerX = componentContainer.getWidth() / 2;
+        final int centerY = componentContainer.getHeight() / 5* 2;
+        CommonConfetti
+					.explosion(componentContainer, centerX, centerY, colors)
+                    .stream(10000);
         }
-        streamBtn.setClickedListener(new Component.ClickedListener() {
-            @Override
-            public void onClick(Component component) {
-                final int centerX = componentContainer.getWidth() / 2;
-                final int centerY = componentContainer.getHeight() / 5* 2;
-                CommonConfetti.explosion(componentContainer, centerX, centerY, colors)
-                                .stream(10000);
-                }
-        });
+});
         </pre>
         </td>
-		</tr>
-<tr>
-        <td>
-        <center><img src="Confetti Images/Explosion Confetti.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
+        <td width=300px>
+        <p align="center"><img src="Confetti Images/Explosion Confetti.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
