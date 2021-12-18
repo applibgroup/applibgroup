@@ -303,9 +303,9 @@ The public methods below will help us to operate on the component at runtime.
 **Public  Methods**
 <table>
 <tr>
-    <td>
+    <td width=400px>
 			<li>oneShot()</li>
-            <li>stream(long durationInMillis)</li>
+            		<li>stream(long durationInMillis)</li>
 			<li>infinite()</li>
 			<li>animate()</li>
 			<li>terminate()</li>
@@ -319,9 +319,9 @@ The public methods below will help us to operate on the component at runtime.
 			<li>BitmapConfetto(Bitmap bitmap)</li>
 			<li>CircleConfetto(int color, float radius)</li>
 			<li>getConfettiManager()</li>
-            <li>setBound(Rect bound)</li>
-			</td>
-			<td>
+            		<li>setBound(Rect bound)</li>
+	</td>
+	<td width=400px>
 			<li>setNumInitialCount(int numInitialCount)</li>
 			<li>setEmissionDuration(long emissionDurationInMillis)</li>
 			<li>setEmissionRate(float emissionRate)</li>
@@ -338,17 +338,17 @@ The public methods below will help us to operate on the component at runtime.
 			<li>setTargetVelocityX(float targetVelocityX)</li>
 			<li>setTargetVelocityY(float targetVelocityY)</li>
 			<li>setInitialRotation(int initialRotation)</li>
-			</td>
-			</tr>
-			</table>
-			<table>
-			<tr>
-			<td>
+	</td>
+</tr>
+</table>
+<table>
+<tr>
+	<td width=800px>
 			<li>setRotationalVelocity(float rotationalVelocity)</li>
 			<li>setConfettiAnimationListener(ConfettiAnimationListener listener)</li>
 			<li>explosion(ComponentContainer container, int x, int y, int[] colors)</li>
-            <li>rainingConfetti(ComponentContainer container, int[] colors)</li>
-            <li>rainingConfetti(ComponentContainer container,ConfettiSource confettiSource, int[] colors)</li>
+            		<li>rainingConfetti(ComponentContainer container, int[] colors)</li>
+            		<li>rainingConfetti(ComponentContainer container,ConfettiSource confettiSource, int[] colors)</li>
 			<li>setRotationalVelocity(float rotationalVelocity,float rotationalVelocityDeviation)</li>
 			<li>setRotationalAcceleration(float rotationalAcceleration)</li>
 			<li>setRotationalAcceleration(float rotationalAcceleration,float rotationalAccelerationDeviation)</li>
@@ -361,7 +361,6 @@ The public methods below will help us to operate on the component at runtime.
 			<li>setTargetVelocityY(float targetVelocityY,float targetVelocityYDeviation)</li>
 			<li>setInitialRotation(int initialRotation, int initialRotationDeviation)</li>
     </td>
-  
 </tr>
 </table>
 
