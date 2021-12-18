@@ -236,7 +236,7 @@ size = AttrHelper.vp2px(6,getContext());
 </pre>
 </td>
 <td width=300px>
-    <p align="center"><img src="Confetti Images/BitMap Confetti.gif" alt="Italian Trulli" width="200px" height="400px"  style="width:200px;height:400px;"></p>
+    <p align="center"><img src="Confetti Images/BitMap Confetti.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
 </td>
 </tr>
 </table>
@@ -245,14 +245,15 @@ size = AttrHelper.vp2px(6,getContext());
 
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 final CommonConfetti[] commonConfetti = new CommonConfetti[1];
         streamBtn.setClickedListener(new Component.ClickedListener() {
             @Override
             public void onClick(Component component) {
-                commonConfetti[0] = CommonConfetti.rainingConfetti(componentContainer,colors);
+                commonConfetti[0] = CommonConfetti
+		.rainingConfetti(componentContainer,colors);
                 commonConfetti[0].infinite();
             }
         });
@@ -264,11 +265,9 @@ final CommonConfetti[] commonConfetti = new CommonConfetti[1];
         });
 </br>
 </pre>
-</tr>
-<tr>
   </td>
-     <td>
-        <center><img src="Confetti Images/Terminate Confetti.gif" alt="Italian Trulli" style="width:220px;height:380px;margin:20px 20px;"></center>
+     <td width=300px>
+        <p align="center"><img src="Confetti Images/Terminate Confetti.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
 </tr>
 </table>
@@ -277,7 +276,7 @@ final CommonConfetti[] commonConfetti = new CommonConfetti[1];
 
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Java Slice</u>:</b><br>
 CommonConfetti.rainingConfetti(container, getColors())
@@ -292,8 +291,8 @@ CommonConfetti.rainingConfetti(container, getColors())
 </br>
 </pre>
   </td>
-     <td>
-        <center><img src="Confetti Images/Particle rotation.gif" alt="Italian Trulli" style="width:220px;height:380px;margin:20px 20px;"></center>
+     <td width=300px>
+        <p align="center"><img src="Confetti Images/Particle rotation.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
     </td>
 </tr>
 </table><br>
