@@ -84,14 +84,24 @@ In this section, we can have a look at some the examples where the APIs of this 
 
 <b><u>Java Slice</u>:</b>
 
-DirectionalLayout componentContainer = findComponentById(ResourceTable.Id_directionalLayout);
-Button streamBtn = findComponentById(ResourceTable.Id_streamWithDuration_btn);
+DirectionalLayout componentContainer = 
+		findComponentById(ResourceTable.Id_directionalLayout);
+Button streamBtn = 
+		findComponentById(ResourceTable.Id_streamWithDuration_btn);
 ResourceManager resourceManager = getResourceManager();
 try {
-    int goldDark = resourceManager.getElement(ResourceTable.Color_gold_dark).getColor();
-    int goldMed = resourceManager.getElement(ResourceTable.Color_gold_med).getColor();
-    int gold = resourceManager.getElement(ResourceTable.Color_gold2).getColor();
-    int goldLight = resourceManager.getElement(ResourceTable.Color_gold_light).getColor();
+    int goldDark = resourceManager
+    		.getElement(ResourceTable.Color_gold_dark)
+		.getColor();
+    int goldMed = resourceManager
+    	.getElement(ResourceTable.Color_gold_med)
+    	.getColor();
+    int gold = resourceManager
+    	.getElement(ResourceTable.Color_gold2)
+	.getColor();
+    int goldLight = resourceManager
+    	.getElement(ResourceTable.Color_gold_light)
+    	.getColor();
     colors = new int[] {goldDark, goldMed, gold, goldLight};
 } catch (IOException | NotExistException | WrongTypeException e) {
     e.printStackTrace();
@@ -102,8 +112,8 @@ streamBtn.setClickedListener(new Component.ClickedListener() {
         final int centerX = componentContainer.getWidth() / 2;
         final int centerY = componentContainer.getHeight() / 5* 2;
         CommonConfetti
-					.explosion(componentContainer, centerX, centerY, colors)
-                    .stream(10000);
+		.explosion(componentContainer, centerX, centerY, colors)
+                .stream(10000);
         }
 });
         </pre>
