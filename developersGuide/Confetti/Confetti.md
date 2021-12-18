@@ -162,7 +162,7 @@ streamBtn.setClickedListener(new Component.ClickedListener() {
 ### Example 3: Bitmap Confetti with listener<br>
    <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 
 <b><u>Java Slice</u>:</b><br>
@@ -234,7 +234,7 @@ size = AttrHelper.vp2px(6,getContext());
     }
 </pre>
 </td>
-<td>
+<td width=300px>
     <p align="center"><img src="Confetti Images/BitMap Confetti.gif" alt="Italian Trulli" width="200px" height="400px"  style="width:200px;height:400px;"></p>
 </td>
 </tr>
