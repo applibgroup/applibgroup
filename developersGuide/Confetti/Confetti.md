@@ -187,7 +187,8 @@ size = AttrHelper.vp2px(6,getContext());
                 final ConfettiSource confettiSource 
 		= new ConfettiSource(0, -size, componentContainer.getWidth(), -size);
                 ConfettiManager confettiManager 
-		= new ConfettiManager(MainAbilitySlice.this,MainAbilitySlice.this, confettiSource, componentContainer)
+		= new ConfettiManager(MainAbilitySlice.this,MainAbilitySlice.this, 
+					confettiSource, componentContainer)
                         .setVelocityX(0, velocitySlow)
                         .setVelocityY(velocityNormal, velocitySlow)
                         .setRotationalVelocity(180, 90)
