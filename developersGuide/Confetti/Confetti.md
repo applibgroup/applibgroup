@@ -172,7 +172,8 @@ size = AttrHelper.vp2px(6,getContext());
         ImageSource.SourceOptions sourceOptions = new ImageSource.SourceOptions();
         ImageSource source = null;
         try {
-            source = ImageSource.create(getResourceManager().getResource(ResourceTable.Media_Emoji),sourceOptions);
+            source = ImageSource.create(getResourceManager()
+	    			.getResource(ResourceTable.Media_Emoji),sourceOptions);
         } catch (IOException | NotExistException e) {
             e.printStackTrace();
         }
@@ -183,8 +184,10 @@ size = AttrHelper.vp2px(6,getContext());
         streamBtn.setClickedListener(new Component.ClickedListener() {
             @Override
             public void onClick(Component component) {
-                final ConfettiSource confettiSource = new ConfettiSource(0, -size, componentContainer.getWidth(), -size);
-                ConfettiManager confettiManager = new ConfettiManager(MainAbilitySlice.this,MainAbilitySlice.this, confettiSource, componentContainer)
+                final ConfettiSource confettiSource 
+		= new ConfettiSource(0, -size, componentContainer.getWidth(), -size);
+                ConfettiManager confettiManager 
+		= new ConfettiManager(MainAbilitySlice.this,MainAbilitySlice.this, confettiSource, componentContainer)
                         .setVelocityX(0, velocitySlow)
                         .setVelocityY(velocityNormal, velocitySlow)
                         .setRotationalVelocity(180, 90)
@@ -195,7 +198,7 @@ size = AttrHelper.vp2px(6,getContext());
             }
         });
        }
-	   @Override
+    @Override
     public Confetto generateConfetto(Random random) {
         return new BitmapConfetto(bitmap);
     }
@@ -223,22 +226,19 @@ size = AttrHelper.vp2px(6,getContext());
     }
     private void updateNumConfettiTxt() {
         try {
-            numConfettiTxt.setText(getResourceManager().getElement(ResourceTable.String_num_confetti_desc).getString(numConfettiOnScreen));
+            numConfettiTxt.setText(getResourceManager()
+	    .getElement(ResourceTable.String_num_confetti_desc).getString(numConfettiOnScreen));
         } catch (IOException | NotExistException | WrongTypeException e) {
             e.printStackTrace();
         }
     }
 </pre>
 </td>
+<td>
+    <p align="center"><img src="Confetti Images/BitMap Confetti.gif" alt="Italian Trulli" width="200px" height="400px"  style="width:200px;height:400px;"></p>
+</td>
 </tr>
 </table>
-<center><table>
-<tr>
-    <td>
-    <center><img src="Confetti Images/BitMap Confetti.gif" alt="Italian Trulli" width="200px" height="400px" style="margin:20px 20px;"></center>
-    </td>
-</tr>
-</table></center>
 
 ### Example 4: Terminate Confetti streaming<br>
 
