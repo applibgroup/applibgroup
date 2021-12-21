@@ -9,7 +9,8 @@ This should be done via a simple to use API without any special features.
 This library - se.emilsjolander.stickylistheaders, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Contacts App</b></br>Contacts+ is the world’s leading contacts (phone book) and dialer app </li><ul>
@@ -19,11 +20,11 @@ This library - se.emilsjolander.stickylistheaders, is very useful in the develop
         </td>
     </tr>
     <tr>
-        <td><center><img src="SLHImages/image1.gif" alt="Italian Trulli" style="width:210px;height:410px;"></center></td>
-        <td><center><img src="SLHImages/image2.gif" alt="Italian Trulli" style="width:210px;height:410px;"></center></td>
+        <td width="50%"><p align="center"><img src="SLHImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="50%"><p align="center"><img src="SLHImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -34,9 +35,9 @@ StickyListHeaders  uses a simple fluent java API's that allows users to make mos
  
 ## **4. Features**
 Features supported by this component includes the below:
-* **Displays the section headers in your ListContainer.**</br>
-* **Displays section headers stick to the top**</br>
-* **Supports customized background color to sticky header background, header text and list container background.**</br>
+* Displays the section headers in your ListContainer</br>
+* Displays section headers stick to the top</br>
+* Supports customized background color to sticky header background, header text and list container background</br>
 
 
 
@@ -45,20 +46,18 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 
 * **Method 1:**  </br>
 Generate the .har package through the library and add the .har package to the libs folder.Add the following code to the entry level build.gradle:
-    <pre>
-       <b style="color:green">
+```groovy
     implementation fileTree  (dir: 'libs', include: ['* .jar', '* .har'])
-       </b>
-</pre>
+```
 
 * **Method 2 :**  </br>
 Copy the dependency from the gitee and add it to the entry level build.gradle:
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:StickyListHeaders:1.0.1'</b>
+    implementation 'io.openharmony.tpc.thirdlib:StickyListHeaders:1.0.1'
            }
-</pre>
+```
 
 
 ## **6. Usage**
@@ -144,7 +143,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1:Harmony StickyListHeaders onItemClickListener**
 <table>
     <tr>
-        <td style="width:560px">
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltListContainer
@@ -175,8 +174,8 @@ if (isHeader) {
         });
         </pre>
         </td>
-        <td >
-        <center><img src="SLHImages/image3.gif" alt="Italian Trulli" style="width:210px;height:410px;"></center>
+        <td width=300px>
+        <p align="center"><img src="SLHImages/image3.gif" alt="Italian Trulli" style="width:210px;height:410px;"></p>
         </td>
     </tr>
 </table>
@@ -185,7 +184,7 @@ if (isHeader) {
 **Example2: Supports customized background color to sticky header background**
 <table>
     <tr>
-        <td style="width:560px">
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltListContainer
@@ -216,8 +215,8 @@ if (isHeader) {
         super.setUIContent(mView);
         </pre>
         </td>
-        <td >
-        <center><img src="SLHImages/image4.gif" alt="Italian Trulli" style="width:210px;height:410px;"></center>
+        <td width=300px>
+        <p align="center"><img src="SLHImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
