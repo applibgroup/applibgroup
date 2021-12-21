@@ -8,7 +8,8 @@
 This library - daimajia.com.easing, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Graph View</b></br>If you are looking for a view to represent some statistical data</li><ul>
@@ -18,11 +19,11 @@ This library - daimajia.com.easing, is very useful in the development of applica
         </td>
     </tr>
     <tr>
-        <td><center><img src="AEFImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="AEFImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="AEFImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+       <td width="50%"><p align="center"><img src="AEFImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -33,32 +34,32 @@ AnimationEasingFunctions  uses a simple fluent java API's that allows users to m
  
 ## **4. Features**
 Features supported by this component includes the below:
-* **BackEaseIn**</br>
-* **BackEaseOut**</br>
-* **BackEaseInOut**</br>
-* **BounceEaseIn**</br>
-* **BounceEaseOut**</br>
-* **BounceEaseInOut**</br>
-* **CircEaseIn**</br>
-* **CircEaseOut**</br>
-* **CircEaseInOut**</br>
-* **CubicEaseIn**</br>
-* **CubicEaseOut**</br>
-* **CubicEaseInOut**</br>
-* **ElasticEaseIn**</br>
-* **ElasticEaseOut**</br>
-* **ExpoEaseIn**</br>
-* **ExpoEaseOut**</br>
-* **ExpoEaseInOut**</br>
-* **QuadEaseIn**</br>
-* **QuadEaseOut**</br>
-* **QuadEaseInOut**</br>
-* **QuintEaseOut**</br>
-* **QuintEaseInOut**</br>
-* **SineEaseIn**</br>
-* **SineEaseOut**</br>
-* **SineEaseInOut**</br>
-* **Linear**</br>
+* BackEaseIn</br>
+* BackEaseOut</br>
+* BackEaseInOut</br>
+* BounceEaseIn</br>
+* BounceEaseOut</br>
+* BounceEaseInOut</br>
+* CircEaseIn</br>
+* CircEaseOut</br>
+* CircEaseInOut</br>
+* CubicEaseIn</br>
+* CubicEaseOut</br>
+* CubicEaseInOut</br>
+* ElasticEaseIn</br>
+* ElasticEaseOut</br>
+* ExpoEaseIn</br>
+* ExpoEaseOut</br>
+* ExpoEaseInOut</br>
+* QuadEaseIn</br>
+* QuadEaseOut</br>
+* QuadEaseInOut</br>
+* QuintEaseOut</br>
+* QuintEaseInOut</br>
+* SineEaseIn</br>
+* SineEaseOut</br>
+* SineEaseInOut</br>
+* Linear</br>
 
 
 ## **5. Installation**
@@ -66,20 +67,18 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 
 * **Method 1:**  </br>
 Generate the .har package through the library and add the .har package to the libs folder.Add the following code to the entry level build.gradle:
-    <pre>
-       <b style="color:green">
+```groovy
     implementation fileTree  (dir: 'libs', include: ['* .jar', '* .har'])
-       </b>
-</pre>
+```
 
 * **Method 2 :**  </br>
 Copy the dependency from the gitee and add it to the entry level build.gradle:
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:AnimationEasingFunctions:1.0.2'</b>
-           }
-</pre>
+    implementation 'io.openharmony.tpc.thirdlib:AnimationEasingFunctions:1.0.2'
+}
+```
 
 
 ## **6. Usage**
@@ -193,7 +192,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: AnimationEasingFunctions with Graph will be plotted for BackEaseIn **
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltdaimajia.com.easing.DrawView
@@ -220,8 +219,8 @@ mTarget.setTranslationY(result);
  * value, mDuration, result - vpToPixels(getContext(), 60));
         </pre>
         </td>
-        <td >
-        <center><img src="AEFImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="AEFImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -230,7 +229,7 @@ mTarget.setTranslationY(result);
 **Example2: AnimationEasingFunctions With  Graph will be plotted for BackEaseOut**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltdaimajia.com.easing.DrawView
@@ -256,8 +255,8 @@ mTarget.setTranslationY(result);
            }));
         </pre>
         </td>
-        <td >
-        <center><img src="AEFImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="AEFImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -266,7 +265,7 @@ mTarget.setTranslationY(result);
 **Example3: AnimationEasingFunctions With  Graph will be plotted for BackEaseInOut**
 <table>
     <tr>
-        <td >
+        <td width=700pxwidth=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltdaimajia.com.easing.DrawView
@@ -301,8 +300,8 @@ mTarget.setTranslationY(result);
       set.start();
         </pre>
         </td>
-        <td >
-        <center><img src="AEFImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="AEFImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
