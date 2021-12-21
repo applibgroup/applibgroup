@@ -8,7 +8,8 @@ CalendarListview provides a easy way to select dates with a calendar. You can fi
 This library - andexert.calendarlistview.library, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>CalendarList</b></br>Is a personal calendar app that lets you take control of your daily tasks                                </li><ul>
@@ -18,11 +19,11 @@ This library - andexert.calendarlistview.library, is very useful in the developm
         </td>
     </tr>
     <tr>
-        <td><center><img src="CLVImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="CLVImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="CLVImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="50%"><p align="center"><img src="CLVImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -33,25 +34,25 @@ CalendarListview  uses a simple fluent java API's that allows users to make most
  
 ## **4. Features**
 Features supported by this component includes the below:
-* **CalendarListview-colorNormalDay**</br>
-* **CalendarListview-colorCurrentDay**</br>
-* **CalendarListview-colorSelectedDayBackground**</br>
-* **CalendarListview-colorSelectedDayText**</br>
-* **CalendarListview-colorPreviousDay**</br>
-* **CalendarListview-colorMonthName**</br>
-* **CalendarListview-colorDayName**</br>
-* **CalendarListview-textSizeDay**</br>
-* **CalendarListview-textSizeMonth**</br>
-* **CalendarListview-textSizeDayName**</br>
-* **CalendarListview-headerMonthHeight**</br>
-* **CalendarListview-drawRoundRect**</br>
-* **CalendarListview-selectedDayRadius**</br>
-* **CalendarListview-enablePreviousDay**</br>
-* **CalendarListview-currentDaySelected**</br>
-* **CalendarListview-firstMonth**</br>
-* **CalendarListview-lastMonth**</br>
-* **CalendarListview-calendarHeight**</br>
-* **CalendarListview-getDaysInMonth**</br>
+* CalendarListview-colorNormalDay</br>
+* CalendarListview-colorCurrentDay</br>
+* CalendarListview-colorSelectedDayBackground</br>
+* CalendarListview-colorSelectedDayText</br>
+* CalendarListview-colorPreviousDay</br>
+* CalendarListview-colorMonthName</br>
+* CalendarListview-colorDayName</br>
+* CalendarListview-textSizeDay</br>
+* CalendarListview-textSizeMonth</br>
+* CalendarListview-textSizeDayName</br>
+* CalendarListview-headerMonthHeight</br>
+* CalendarListview-drawRoundRect</br>
+* CalendarListview-selectedDayRadius</br>
+* CalendarListview-enablePreviousDay</br>
+* CalendarListview-currentDaySelected</br>
+* CalendarListview-firstMonth</br>
+* CalendarListview-lastMonth</br>
+* CalendarListview-calendarHeight</br>
+* CalendarListview-getDaysInMonth</br>
 
 
 ## **5. Installation**
@@ -59,20 +60,18 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 
 * **Method 1:**  </br>
 Generate the .har package through the library and add the .har package to the libs folder.Add the following code to the entry level build.gradle:
-    <pre>
-       <b style="color:green">
+```groovy
     implementation fileTree  (dir: 'libs', include: ['* .jar', '* .har'])
-       </b>
-</pre>
+```
 
 * **Method 2 :**  </br>
 Copy the dependency from the gitee and add it to the entry level build.gradle:
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:CalendarListview:1.0.2'</b>
+    implementation 'io.openharmony.tpc.thirdlib:CalendarListview:1.0.2'
            }
-</pre>
+```
 
 
 ## **6. Usage**
@@ -166,7 +165,7 @@ In this section, we can have a look at some the examples where the APIs of this 
  calender list view should Appear with current date marked with provided color
 <table>
     <tr >
-        <td width="50%">
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.andexert.calendarlistview.library.DayPickerView
@@ -178,8 +177,8 @@ In this section, we can have a look at some the examples where the APIs of this 
 </br>
         </pre>
         </td>
-        <td>
-        <center><img src="CLVImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="CLVImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -192,7 +191,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 
 <table>
     <tr >
-        <td width="50%">
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.andexert.calendarlistview.library.DayPickerView
@@ -204,8 +203,8 @@ In this section, we can have a look at some the examples where the APIs of this 
 	</br>
         </pre>
         </td>
-        <td>
-        <center><img src="CLVImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="CLVImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -215,7 +214,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example3: CalendarListview  colorMonthName attribute with different color**
 <table>
     <tr >
-        <td width="50%">
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre >
 &ltcom.andexert.calendarlistview.library.DayPickerView
@@ -227,8 +226,8 @@ In this section, we can have a look at some the examples where the APIs of this 
 	</br>
         </pre>
         </td>
-        <td>
-        <center><img src="CLVImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="CLVImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
