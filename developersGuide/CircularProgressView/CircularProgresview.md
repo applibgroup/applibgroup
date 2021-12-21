@@ -10,7 +10,9 @@ This CircularProgressView is a (surprisingly) circular progress bar openharmony 
 This library -  com.github.rahatarmanahmed.cpv, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>News </b></br> News app that presents the latest news in crisp format from trusted national and international publishers</li><ul>
@@ -20,12 +22,11 @@ This library -  com.github.rahatarmanahmed.cpv, is very useful in the developmen
         </td>
     </tr>
     <tr>
-        <td><center><img src="CPVImages/image1.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center></td>
-        <td><center><img src="CPVImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="CPVImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="50%"><p align="center"><img src="CPVImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
-
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanism.
@@ -46,20 +47,18 @@ For using the library in your HarmonyOS mobile app, you need to first install it
 
 * **Method 1:**  </br>
 Generate the .har package through the library and add the .har package to the libs folder.Add the following code to the entry level build.gradle:
-    <pre>
-       <b style="color:green">
+```groovy
     implementation fileTree  (dir: 'libs', include: ['* .jar', '* .har'])
-       </b>
-</pre>
+```
 
 * **Method 2 :**  </br>
 Copy the dependency from the gitee and add it to the entry level build.gradle:
-<pre>
+```groovy
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.har'])
-    <b style="color:blue;">implementation 'io.openharmony.tpc.thirdlib:CircularProgressView:1.0.1'</b>
+    implementation 'io.openharmony.tpc.thirdlib:CircularProgressView:1.0.1'
            }
-</pre>
+```
 
 
 ## **6. Usage**
@@ -182,7 +181,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: CircularProgressView with Indeterminate Mode**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.github.rahatarmanahmed.cpv.CircularProgressView
@@ -206,8 +205,8 @@ In this section, we can have a look at some the examples where the APIs of this 
  progressView.setIndeterminate(true);</b>
         </pre>
         </td>
-        <td >
-        <center><img src="CPVImages/image3.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="CPVImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -216,7 +215,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2: CircularProgressView With Determinate Modee**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.github.rahatarmanahmed.cpv.CircularProgressView
@@ -247,8 +246,8 @@ In this section, we can have a look at some the examples where the APIs of this 
  progressView.setIndeterminate(false);</b>
         </pre>
         </td>
-        <td >
-        <center><img src="CPVImages/image4.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="CPVImages/image4.gif" alt="Italian Trulli" style="width:210px;height:400px;"></p>
         </td>
     </tr>
 </table>
