@@ -12,7 +12,8 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/do
 This library - com.trncic.dottedbarsample, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Circle Indicators</b></br>Create Circle Indicators for your beautiful aaplication between the two pages(Screen) </li><ul>
@@ -22,11 +23,11 @@ This library - com.trncic.dottedbarsample, is very useful in the development of 
         </td>
     </tr>
     <tr>
-        <td><center><img src="DPBImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="DPBImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="DPBImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="DPBImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -137,7 +138,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: Dotted Progressbar  should be  Displayed**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.trncic.library.DottedProgressBar
@@ -167,8 +168,8 @@ In this section, we can have a look at some the examples where the APIs of this 
  han.postTask(run, delay);
         </pre>
         </td>
-        <td >
-        <center><img src="DPBImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="DPBImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -177,7 +178,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2: Dotted Progressbar  should be  Displayed with Custom Color**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.trncic.library.DottedProgressBar
@@ -209,8 +210,8 @@ In this section, we can have a look at some the examples where the APIs of this 
    app:inactiveDot="$color:black",</b> 
         </pre>
         </td>
-        <td >
-        <center><img src="DPBImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="DPBImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
