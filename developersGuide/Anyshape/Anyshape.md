@@ -167,7 +167,7 @@ ohos:scale_mode="center"
         </pre>
         </td>
         <td width=300px>
-        <center><img src="ASImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="ASImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -204,7 +204,7 @@ ohos:scale_mode="center"
         </pre>
         </td>
         <td width=300px>
-        <center><img src="ASImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="ASImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -250,7 +250,7 @@ ohos:scale_mode="center"
         </pre>
         </td>
         <td width=300px>
-        <center><img src="ASImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="ASImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
