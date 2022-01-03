@@ -13,11 +13,16 @@ A Harmony TabLayout Lib has 3 kinds of TabLayout at present.
 
 ## **2. Typical Use Cases**
 This library - FlycoTabLayout, is very useful in the development of applications which are in our daily use. we can create tabbed layouts with the help of this library. We can used to create different pages which changes based on the tab selection as shown below.
- </td>
-  <td width=300px>
-        <left><img src="FlycoTabLayoutimages/use_case.gif" alt="Italian Trulli" style="width:200px;height:400px;"></left>
-  </td>
+
+<div align="center">
+<table>
+    <tr>
+  	<td width=300px>
+        	<left><img src="FlycoTabLayoutimages/use_case.gif" alt="Italian Trulli" style="width:200px;height:400px;"></left>
+  	</td>
     </tr>
+</table>
+</div>
 
 
 ## **3. Capability**
