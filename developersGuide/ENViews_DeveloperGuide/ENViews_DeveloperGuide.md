@@ -175,7 +175,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setDownloadConfig()</li>
         </ul>
     </td>
-    <td width=250px>
+    <td width=350px>
         <ul>
             <li>setSize())</li>
             <li>setTextColor()</li>
@@ -200,7 +200,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setBgLineWidth()</li>
         </ul>
     </td>
-    <td width=250px>
+    <td width=350px>
         <ul>
             <li>setDuration()</li>
             <li>setLineColor()</li>
@@ -214,7 +214,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td width=500px>
+    <td width=600px>
         <ul>
             <li>hide()</li>
             <li>show()</li>
@@ -227,7 +227,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td width=500px>
+    <td width=600px>
         <ul>
             <li>setDuration()</li>
             <li>startRefresh()</li>
@@ -246,7 +246,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>select()</li>
         </ul>
     </td>
-    <td width=250px>
+    <td width=350px>
         <ul>
             <li>setDuration()</li>
             <li>unSelect()</li>
@@ -259,7 +259,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td width=500px>
+    <td width=600px>
         <ul>
             <li>start()</li>
         </ul>
@@ -271,7 +271,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td width=500px>
+    <td width=600px>
         <ul>
             <li>updateVolumeValue()</li>
         </ul>
