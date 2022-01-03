@@ -14,16 +14,18 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/EN
 ## **2. Typical Use Case**
 This library - moe.codeest.enviews, is very useful in the development of application's feature requiring instant use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>search view</b></br></li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="ExpDocImgs/searchView_usecase.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ExpDocImgs/searchView_usecase.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanisms.
@@ -163,7 +165,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=250px>
         <ul>
             <li>start()</li>
             <li>reset()</li>
@@ -173,7 +175,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setDownloadConfig()</li>
         </ul>
     </td>
-    <td>
+    <td width=250px>
         <ul>
             <li>setSize())</li>
             <li>setTextColor()</li>
@@ -190,7 +192,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=250px>
         <ul>
             <li>play()</li>
             <li>pause()</li>
@@ -198,7 +200,7 @@ The public methods below will help us to operate on the component at runtime.
             <li>setBgLineWidth()</li>
         </ul>
     </td>
-    <td>
+    <td width=250px>
         <ul>
             <li>setDuration()</li>
             <li>setLineColor()</li>
@@ -212,7 +214,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=500px>
         <ul>
             <li>hide()</li>
             <li>show()</li>
@@ -225,7 +227,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=500px>
         <ul>
             <li>setDuration()</li>
             <li>startRefresh()</li>
@@ -238,13 +240,13 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=250px>
         <ul>
             <li>isSelected()</li>
             <li>select()</li>
         </ul>
     </td>
-    <td>
+    <td width=250px>
         <ul>
             <li>setDuration()</li>
             <li>unSelect()</li>
@@ -257,7 +259,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=500px>
         <ul>
             <li>start()</li>
         </ul>
@@ -269,7 +271,7 @@ The public methods below will help us to operate on the component at runtime.
 
 <table>
 <tr>
-    <td>
+    <td width=500px>
         <ul>
             <li>updateVolumeValue()</li>
         </ul>
@@ -284,7 +286,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 In this example, the play view is in default paused state with black background line color and gray line color set from layout.xml and same can be set from java api as mentioned .The color code is in [RGB-format](https://htmlcolorcodes.com/)
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltmoe.codeest.enviews.ENPlayView
@@ -308,8 +310,8 @@ playview = (ENPlayView)findComponentById(ResourceTable.Id_view_play);
 <b style="color:blue;">playView.setLineColor(Color.GREEN.getValue());</b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/playView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/playView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -317,7 +319,7 @@ playview = (ENPlayView)findComponentById(ResourceTable.Id_view_play);
 **Example2: Customizing search view**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltmoe.codeest.enviews.ENSearchView
@@ -336,8 +338,8 @@ searchView = findComponentById(ResourceTable.Id_view_search);
 <b style="color:blue;">searchView.start();</b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/searchView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/searchView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
