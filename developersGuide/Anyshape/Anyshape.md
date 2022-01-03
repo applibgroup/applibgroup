@@ -9,8 +9,8 @@ Anyshape: An openharmony library that can help developers to display mask image 
 ## **2. Typical Use Cases**
 This library - cn.lankton.anyshape, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
-
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Picture Shape</b></br>Create stunning shapes for your beautiful photos easily with our Picture Shape app </li><ul>
@@ -20,11 +20,11 @@ This library - cn.lankton.anyshape, is very useful in the development of applica
         </td>
     </tr>
     <tr>
-        <td><center><img src="ASImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="ASImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ASImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="ASImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -140,7 +140,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: Anyshape with Change the Ring Color**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcn.lankton.anyshape.AnyshapeImageView
@@ -166,7 +166,7 @@ ohos:scale_mode="center"
   iv_ring_image.setPixelMap(texture.getPixelMap());
         </pre>
         </td>
-        <td >
+        <td width=300px>
         <center><img src="ASImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -176,7 +176,7 @@ ohos:scale_mode="center"
 **Example2: Anyshape with apply Mask Element Panda**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcn.lankton.anyshape.AnyshapeImageView
@@ -203,7 +203,7 @@ ohos:scale_mode="center"
    mCanvas.drawPixelMapHolder(new PixelMapHolder(mask),</b> 
         </pre>
         </td>
-        <td >
+        <td width=300px>
         <center><img src="ASImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
@@ -213,7 +213,7 @@ ohos:scale_mode="center"
 **Example3: Anyshape with apply Text**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcn.lankton.anyshape.AnyshapeImageView
@@ -249,7 +249,7 @@ ohos:scale_mode="center"
     iv_text_image.setPixelMap(texture.getPixelMap());</b> 
         </pre>
         </td>
-        <td >
+        <td width=300px>
         <center><img src="ASImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
