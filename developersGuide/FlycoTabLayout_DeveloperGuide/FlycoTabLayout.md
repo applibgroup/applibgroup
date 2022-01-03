@@ -18,7 +18,7 @@ This library - FlycoTabLayout, is very useful in the development of applications
 <table>
     <tr>
   	<td width=300px>
-        	<left><img src="FlycoTabLayoutimages/use_case.gif" alt="Italian Trulli" style="width:200px;height:400px;"></left>
+        	<td width="50%"><p align="center"><img src="FlycoTabLayoutimages/use_case.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
   	</td>
     </tr>
 </table>
