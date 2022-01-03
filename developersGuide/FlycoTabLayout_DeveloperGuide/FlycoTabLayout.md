@@ -12,7 +12,12 @@ A Harmony TabLayout Lib has 3 kinds of TabLayout at present.
 * **SegmentTabLayout like CommonTabLayout**
 
 ## **2. Typical Use Cases**
-This library - FlycoTabLayout, is very useful in the development of applications which are in our daily use. we can create tabbed layouts with the help of this library.
+This library - FlycoTabLayout, is very useful in the development of applications which are in our daily use. we can create tabbed layouts with the help of this library. We can used to create different pages which changes based on the tab selection as shown below.
+ </td>
+  <td width=300px>
+        <left><img src="FlycoTabLayoutimages/use_case.gif" alt="Italian Trulli" style="width:200px;height:400px;"></left>
+  </td>
+    </tr>
 
 
 ## **3. Capability**
@@ -304,40 +309,42 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: SlidingTabLayout**
 <table>
     <tr>
-        <td >
+        <td width=600px">
         <b><u>Layout.xml</u>:</b>
         <pre>
  
-         <com.flyco.tablayout.SlidingTabLayout
-             ohos:id="$+id:sliding6"
-             ohos:height="50vp"
-             ohos:width="match_content"
-             tl:tl_divider_color="#1A000000"
-             tl:tl_divider_padding="13vp"
-             tl:tl_divider_width="1vp"
-             tl:tl_indicator_color="#000000"
-             tl:tl_indicator_height="1.5vp"
-             tl:tl_indicator_width_equal_title="true"
-             tl:tl_tab_padding="22vp"
-             tl:tl_tab_space_equal="true"
-             tl:tl_textSelectColor="#000000"
-             tl:tl_textUnselectColor="#66000000"
-             tl:tl_underline_color="#1A000000"
-             tl:tl_underline_height="1vp"
-             />
+<com.flyco.tablayout.SlidingTabLayout
+    ohos:id="$+id:sliding6"
+    ohos:height="50vp"
+    ohos:width="match_content"
+    tl:tl_divider_color="#1A000000"
+    tl:tl_divider_padding="13vp"
+    tl:tl_divider_width="1vp"
+    tl:tl_indicator_color="#000000"
+    tl:tl_indicator_height="1.5vp"
+    tl:tl_indicator_width_equal_title="true"
+    tl:tl_tab_padding="22vp"
+    tl:tl_tab_space_equal="true"
+    tl:tl_textSelectColor="#000000"
+    tl:tl_textUnselectColor="#66000000"
+    tl:tl_underline_color="#1A000000"
+    tl:tl_underline_height="1vp"
+/>
 </br>
 </pre>
 <b><u>Java Slice</u>:</b>
 <pre>
-        ScrollView scrollView6 = (ScrollView) findComponentById(ResourceTable.Id_sc6);
-        SlidingTabLayout slidingTabLayout6 = (SlidingTabLayout) findComponentById(ResourceTable.Id_sliding6);
-        slidingTabLayout6.setScrollView(scrollView6);
-        slidingTabLayout6.setViewPager(pageSlider, mTitles);
+ScrollView scrollView6 = 
+(ScrollView) findComponentById(ResourceTable.Id_sc6);
+SlidingTabLayout slidingTabLayout6 = 
+(SlidingTabLayout) findComponentById(ResourceTable.Id_sliding6);
+slidingTabLayout6.setScrollView(scrollView6);
+slidingTabLayout6.setViewPager(pageSlider, mTitles);
  </pre>
  </td>
-  <td >
-        <center><img src="FlycoTabLayoutimages/Sliding.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
-        </td>
+  <td width=300px>
+        <center><img src="FlycoTabLayoutimages/Sliding.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+  </td>
     </tr>
 </table>
 
@@ -345,39 +352,40 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2: CommonTabLayout**
 <table>
     <tr>
-        <td >
+        <td width=600px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &com.flyco.tablayout.CommonTabLayout
-         ohos:id="$+id:common4"
-         ohos:height="60vp"
-         ohos:width="match_parent"
-         tl:tl_indicator_color="#00ff88"
-         tl:tl_indicator_style="2"
-         tl:tl_textSelectColor="#ff5454"
-         tl:tl_textUnselectColor="#66000000"
-         tl:tl_textsize="16vp"
-         tl:tl_underline_color="#dddddd"
-         tl:tl_underline_height="1vp"
-         tl:tl_iconVisible="false"
-         tl:tl_indicator_margin_left="5vp"
-         tl:tl_indicator_margin_right="5vp"
-         tl:tl_indicator_corner_radius="10vp"
-         />
+    ohos:id="$+id:common4"
+    ohos:height="60vp"
+    ohos:width="match_parent"
+    tl:tl_indicator_color="#00ff88"
+    tl:tl_indicator_style="2"
+    tl:tl_textSelectColor="#ff5454"
+    tl:tl_textUnselectColor="#66000000"
+    tl:tl_textsize="16vp"
+    tl:tl_underline_color="#dddddd"
+    tl:tl_underline_height="1vp"
+    tl:tl_iconVisible="false"
+    tl:tl_indicator_margin_left="5vp"
+    tl:tl_indicator_margin_right="5vp"
+    tl:tl_indicator_corner_radius="10vp"
+/>
 </br>
 </pre>
 <b><u>Java Slice</u>:</b>
 <pre>
-        CommonTabLayout commonTabLayout4 = (CommonTabLayout) findComponentById(ResourceTable.Id_common4);    
-        commonTabLayout4.setTabData(mTabEntities);
-        commonTabLayout4.showDot(2);
-        commonTabLayout4.showMsg(0, 222);
-        commonTabLayout4.setMsgMargin(0, 0, 10);
-        commonTabLayout4.setMsgMargin(2, 0, 5);
+CommonTabLayout commonTabLayout4 = 
+(CommonTabLayout) findComponentById(ResourceTable.Id_common4);    
+commonTabLayout4.setTabData(mTabEntities);
+commonTabLayout4.showDot(2);
+commonTabLayout4.showMsg(0, 222);
+commonTabLayout4.setMsgMargin(0, 0, 10);
+commonTabLayout4.setMsgMargin(2, 0, 5);
         </pre>
         </td>
-        <td >
-        <center><img src="FlycoTabLayoutimages/Common.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <center><img src="FlycoTabLayoutimages/Common.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
@@ -386,33 +394,34 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example3: SegmentTabLayout like CommonTabLayout**
 <table>
     <tr>
-        <td >
+        <td width=600px>
         <b><u>Layout.xml</u>:</b>
         <pre>
-&com.flyco.tablayout.SegmentTabLayout                                                                        
-         ohos:top_margin="20vp"
-         ohos:layout_alignment="horizontal_center"
-         ohos:height="40vp"
-         ohos:id="$+id:segment6"
-         ohos:width="match_parent"
-         tl:tl_indicator_anim_enable="true"
-         tl:tl_indicator_bounce_enable="false"
-         tl:tl_indicator_margin_bottom="2vp"
-         tl:tl_indicator_margin_left="2vp"
-         tl:tl_indicator_margin_right="2vp"
-         tl:tl_indicator_margin_top="2vp"
-         tl:tl_tab_space_equal="true"
-         />
+&com.flyco.tablayout.SegmentTabLayout
+ohos:top_margin="20vp"
+ohos:layout_alignment="horizontal_center"
+ohos:height="40vp"
+ohos:id="$+id:segment6"
+ohos:width="match_parent"
+tl:tl_indicator_anim_enable="true"
+tl:tl_indicator_bounce_enable="false"
+tl:tl_indicator_margin_bottom="2vp"
+tl:tl_indicator_margin_left="2vp"
+tl:tl_indicator_margin_right="2vp"
+tl:tl_indicator_margin_top="2vp"
+tl:tl_tab_space_equal="true"
+/>
 </br>
 </pre>
 <b><u>Java Slice</u>:</b>
 <pre>
-SegmentTabLayout segmentTabLayout6 = (SegmentTabLayout) findComponentById(ResourceTable.Id_segment6);
+SegmentTabLayout segmentTabLayout6 = 
+(SegmentTabLayout) findComponentById(ResourceTable.Id_segment6);
 segmentTabLayout6.setTabData(mTitles_3);
         </pre>
         </td>
-        <td >
-        <center><img src="FlycoTabLayoutimages/segment.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <center><img src="FlycoTabLayoutimages/segment.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
         </td>
     </tr>
 </table>
