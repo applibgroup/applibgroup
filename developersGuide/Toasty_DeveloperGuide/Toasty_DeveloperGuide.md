@@ -7,7 +7,8 @@ To get started right away, head on to [Gitee](https://codehub-y.huawei.com/opens
 ## **2. Typical Use Case**
 This library - es.dmoral.toasty , is very useful in the development of application's feature requiring instant use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Sending message</li><ul>
@@ -17,9 +18,10 @@ This library - es.dmoral.toasty , is very useful in the development of applicati
         </td>
     </tr>
     <tr>
-        <td><center><img src="ExpDocImgs/Toast_notification.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ExpDocImgs/Toast_notification.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanisms.
@@ -115,7 +117,7 @@ In this section, we can have a look at some of the examples where the APIs of th
 In this example, a button is created in layout.xml and upon click success toast will be displayed.
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltButton
@@ -140,8 +142,8 @@ In this example, a button is created in layout.xml and upon click success toast 
 <b style="color:blue;">Toasty.warning(TestCaseAbilitySlice.this,"WARNING TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/Toasty.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/Toasty.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
