@@ -9,7 +9,8 @@ To get started right away, head on to [Gitee](https://codehub-y.huawei.com/Proje
 ## **2. Typical Use Cases**
 This library - com.developer.messageview, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Messenger</b></br>Messages can be exchanged between sender and receiver</li><ul>
@@ -18,8 +19,8 @@ This library - com.developer.messageview, is very useful in the development of a
     <tr>
         <td><ceter><img src="ExpDocImgs/messageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -133,7 +134,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 In this example, first the background-color of the circleImageView is set to red color in layout.xml so that transparency is clearly observable. The color code is in [RGB-format](https://htmlcolorcodes.com/)
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltcom.developer.messageview
@@ -154,8 +155,8 @@ findComponentById
 <b style="color:blue;">civ.setAlpha(0.5f);</b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/TransparentCircleImageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/messageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
