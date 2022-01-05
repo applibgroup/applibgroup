@@ -312,7 +312,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: SlidingTabLayout**
 <table>
     <tr>
-        <td width=600px">
+        <td width=700px">
         <b><u>Layout.xml</u>:</b>
         <pre>
  
@@ -355,7 +355,7 @@ slidingTabLayout6.setViewPager(pageSlider, mTitles);
 **Example2: CommonTabLayout**
 <table>
     <tr>
-        <td width=600px>
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &com.flyco.tablayout.CommonTabLayout
@@ -397,7 +397,7 @@ commonTabLayout4.setMsgMargin(2, 0, 5);
 **Example3: SegmentTabLayout like CommonTabLayout**
 <table>
     <tr>
-        <td width=600px>
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &com.flyco.tablayout.SegmentTabLayout
