@@ -134,12 +134,19 @@ In this example, a button is created in layout.xml and upon click success toast 
 </br>
 <b><u>Java Slice</u>:</b>
 
-<b style="color:blue;">Toasty.success(TestCaseAbilitySlice.this,"SUCCESS TOAST WITH ICON",3000,true);</b>
-<b style="color:blue;">Toasty.error(TestCaseAbilitySlice.this,"ERROR TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
-<b style="color:blue;">Toasty.info(TestCaseAbilitySlice.this,"INFO TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
-<b style="color:blue;">Toasty.normal(TestCaseAbilitySlice.this,ResourceTable.String_normal_message_with_icon,icon);</b>
-<b style="color:blue;">Toasty.custom(TestCaseAbilitySlice.this,"HELOOOOO!!!",custom_icon15,ResourceTable.Color_successColor,ResourceTable.Color_errorColor,Toasty.LENGTH_LONG,true,true);</b>
-<b style="color:blue;">Toasty.warning(TestCaseAbilitySlice.this,"WARNING TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
+<b style="color:blue;">Toasty.success(TestCaseAbilitySlice.this,
+    "SUCCESS TOAST WITH ICON",3000,true);</b>
+<b style="color:blue;">Toasty.error(TestCaseAbilitySlice.this,
+    "ERROR TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
+<b style="color:blue;">Toasty.info(TestCaseAbilitySlice.this,
+    "INFO TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
+<b style="color:blue;">Toasty.normal(TestCaseAbilitySlice.this,
+    ResourceTable.String_normal_message_with_icon,icon);</b>
+<b style="color:blue;">Toasty.custom(TestCaseAbilitySlice.this,
+    "HELOOOOO!!!",custom_icon15,ResourceTable.Color_successColor,
+    ResourceTable.Color_errorColor,Toasty.LENGTH_LONG,true,true);</b>
+<b style="color:blue;">Toasty.warning(TestCaseAbilitySlice.this,
+    "WARNING TOAST MESSAGE WITH ICON",Toasty.LENGTH_LONG,true);</b>
         </pre>
         </td>
         <td width=300px>
