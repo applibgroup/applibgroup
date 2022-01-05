@@ -11,7 +11,8 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/rx
 This library - com.f2prateek.rx.preferences3, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Save ContactNumber</b></br>Simply an easy way to save new contacts. - Launch New Contact, input a name/number and hit save. The contact will be added to your phone's contacts </li><ul>
@@ -21,11 +22,11 @@ This library - com.f2prateek.rx.preferences3, is very useful in the development 
         </td>
     </tr>
     <tr>
-        <td><center><img src="RxpImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="RxpImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="RxpImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="RxpImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -141,7 +142,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: RxPreferences to store & retrieve boolean values into  RXSharedPreferences**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltCheckbox
@@ -179,8 +180,8 @@ In this section, we can have a look at some the examples where the APIs of this 
 </b>
         </pre>
         </td>
-        <td >
-        <center><img src="RxpImages/image3.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="RxpImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -189,7 +190,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2: RxPreferences to store & retrieve String values into  RXSharedPreferences**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltTextField
@@ -232,8 +233,8 @@ In this section, we can have a look at some the examples where the APIs of this 
 </b>
         </pre>
         </td>
-        <td >
-        <center><img src="RxpImages/image4.gif" alt="Italian Trulli" style="width:210px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="RxpImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
