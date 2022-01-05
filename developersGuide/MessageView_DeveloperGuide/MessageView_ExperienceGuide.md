@@ -1,4 +1,4 @@
-# How to use CircleImageView Library for HarmonyOS: A developer’s Guide
+# How to use MessageView Library for HarmonyOS: A developer’s Guide
 
 ## **1. Introduction**
 MessageView helps user to create chat message view or a social media message view quickly like a typical chatting application or social post view .Its a container view,so user can add any type of message or social post such as Text or any customize Text, Image, etc.
@@ -17,7 +17,7 @@ This library - com.developer.messageview, is very useful in the development of a
         </td>
     </tr>
     <tr>
-        <td><ceter><img src="ExpDocImgs/messageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ExpDocImgs/messageView.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table>
 </div>
