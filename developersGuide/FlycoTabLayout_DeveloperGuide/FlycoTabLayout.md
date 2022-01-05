@@ -346,7 +346,7 @@ slidingTabLayout6.setViewPager(pageSlider, mTitles);
  </pre>
  </td>
   <td width=300px>
-        <center><img src="FlycoTabLayoutimages/Sliding.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="FlycoTabLayoutimages/Sliding.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
   </td>
     </tr>
 </table>
@@ -388,7 +388,7 @@ commonTabLayout4.setMsgMargin(2, 0, 5);
         </pre>
         </td>
         <td width=300px>
-        <center><img src="FlycoTabLayoutimages/Common.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="FlycoTabLayoutimages/Common.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -424,7 +424,7 @@ segmentTabLayout6.setTabData(mTitles_3);
         </pre>
         </td>
         <td width=300px>
-        <center><img src="FlycoTabLayoutimages/segment.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <p align="center"><img src="FlycoTabLayoutimages/segment.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
