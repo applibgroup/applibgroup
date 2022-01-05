@@ -161,8 +161,6 @@ findComponentById
     </tr>
 </table>
 
-**Example2: Customising border related attributes**
-
 
 ## **8. Conclusion**
 MessageView is a very easy to use and very powerful library.The performance of the library is very good even when it works on one of the latest operating systems in the world, which is HarmonyOS!
