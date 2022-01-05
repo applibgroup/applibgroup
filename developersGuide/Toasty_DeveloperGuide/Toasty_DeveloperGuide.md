@@ -13,9 +13,6 @@ This library - es.dmoral.toasty , is very useful in the development of applicati
         <td>
             <ul><li><b>Sending message</li><ul>
         </td>
-        <td>
-            <ul><li><b>Sending message</li><ul>
-        </td>
     </tr>
     <tr>
         <td width="50%"><p align="center"><img src="ExpDocImgs/Toast_notification.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
