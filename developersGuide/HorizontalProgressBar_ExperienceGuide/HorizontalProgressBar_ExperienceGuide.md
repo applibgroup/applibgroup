@@ -9,7 +9,9 @@ To get started right away, head on to [Gitee](https://github.com/applibgroup/ZzH
 ## **2. Typical Use Case**
 This library - me.zhouzhuo.zzhorizontalprogressbar, is very useful in the development of applications which are in our daily use. An example of such case is mentioned below:
 
-<center><table>
+
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Download Status</b></br>The Progress/percentage of files (of total size) while downloading.</li><ul>
@@ -19,11 +21,11 @@ This library - me.zhouzhuo.zzhorizontalprogressbar, is very useful in the develo
         </td>
     </tr>
     <tr>
-        <td><center><img src="ExpDocImgs/HighlightProfile.png" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="ExpDocImgs/ChatList.png" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="ExpDocImgs/HighlightProfile.png" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="ExpDocImgs/ChatList.png" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -199,7 +201,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 In this example, first the background-color of the bar is set to grey color in layout.xml so that progress color which is set to green is clearly observable. The color code is in [RGB-format](https://htmlcolorcodes.com/)
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltme.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
@@ -218,8 +220,8 @@ horizontalProgressBar = findComponentById(ResourceTable.Id_hpb);
 <b style="color:blue;">horizontalProgressBar.setBgColor(Color.GREEN.getValue());</b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/border.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/border.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -227,7 +229,7 @@ horizontalProgressBar = findComponentById(ResourceTable.Id_hpb);
 **Example2: Customising border related attributes**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &ltme.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
@@ -248,8 +250,8 @@ horizontalProgressBar = findComponentById(ResourceTable.Id_hpb)
 </b>
         </pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/border.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/border.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -257,7 +259,7 @@ horizontalProgressBar = findComponentById(ResourceTable.Id_hpb)
 **Example3: Setting gradient progress**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt&ltme.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
@@ -279,8 +281,8 @@ horizontalProgressBar.setProgress(30);
 horizontalProgressBar.setGradientColor(0xFFFF0000,0xFF00FF00);
 </b></pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/GradientColor.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/GradientColor.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -288,7 +290,7 @@ horizontalProgressBar.setGradientColor(0xFFFF0000,0xFF00FF00);
 **Example4: Setting second-level progress**
 <table>
     <tr>
-        <td>
+        <td width=700px>
         <pre>
 <b><u>Layout.xml</u>:</b>
 &lt&ltme.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
@@ -314,8 +316,8 @@ horizontalProgressBar.setProgressColor(Color.YELLOW.getValue());
 horizontalProgressBar.setSecondGradientColor(Color.GREEN.getValue(),Color.MAGENTA.getValue());
 </b></pre>
         </td>
-        <td>
-        <center><img src="ExpDocImgs/Second-levelProgressColor.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="ExpDocImgs/Second-levelProgressColor.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
