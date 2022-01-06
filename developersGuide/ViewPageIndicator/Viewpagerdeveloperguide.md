@@ -9,7 +9,8 @@ openharmony to improve discoverability of content.
 This library - com.viewpagerindicator.sample, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>WhatsApp</b></br>Your personal messages and calls to friends and family are end-to-end encrypted. No one outside of your chats, not even WhatsApp, can read or listen to them. </li><ul>
@@ -19,11 +20,11 @@ This library - com.viewpagerindicator.sample, is very useful in the development 
         </td>
     </tr>
     <tr>
-        <td><center><img src="VPImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="VPImages/image12.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="VPImages/image1.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="100%"><p align="center"><img src="VPImages/image12.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
-
+</table>
+</div>
 
 
 ## **3. Capability**
@@ -183,7 +184,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example1: ViewPagerIndicator with Circle Dots**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.viewpagerindicator.CirclePageIndicator
@@ -216,8 +217,8 @@ In this section, we can have a look at some the examples where the APIs of this 
    mIndicator.setItemOffset(17);
         </pre>
         </td>
-        <td >
-        <center><img src="VPImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="VPImages/image3.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -226,7 +227,7 @@ In this section, we can have a look at some the examples where the APIs of this 
 **Example2:  ViewPagerIndicator with Icons with data**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.viewpagerindicator.IconPageIndicator
@@ -256,8 +257,8 @@ mPager.setOrientation(Component.HORIZONTAL);
 mPager.setSlidingPossible(true);
         </pre>
         </td>
-        <td >
-        <center><img src="VPImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="VPImages/image4.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -266,7 +267,7 @@ mPager.setSlidingPossible(true);
 **Example3: ViewPagerIndicator with Icons with Tabs**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.viewpagerindicator.TabPageIndicator
@@ -296,8 +297,8 @@ mPager.setSlidingPossible(true);
   mPager.setSlidingPossible(true);
         </pre>
         </td>
-        <td >
-        <center><img src="VPImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="VPImages/image2.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -305,7 +306,7 @@ mPager.setSlidingPossible(true);
 **Example4: ViewPagerIndicator with Titles Center OnClick**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.viewpagerindicator.TitlePageIndicator
@@ -332,8 +333,8 @@ mPager.setSlidingPossible(true);
     }
         </pre>
         </td>
-        <td >
-        <center><img src="VPImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="VPImages/image5.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
@@ -342,7 +343,7 @@ mPager.setSlidingPossible(true);
 **Example5: ViewPagerIndicator with Tabs with UnderLine**
 <table>
     <tr>
-        <td >
+        <td width=700px>
         <b><u>Layout.xml</u>:</b>
         <pre>
 &ltcom.viewpagerindicator.UnderlinePageIndicator
@@ -376,8 +377,8 @@ mPager.setSlidingPossible(true);
   mPager.setSlidingPossible(true);
         </pre>
         </td>
-        <td >
-        <center><img src="VPImages/image7.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center>
+        <td width=300px>
+        <p align="center"><img src="VPImages/image7.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
