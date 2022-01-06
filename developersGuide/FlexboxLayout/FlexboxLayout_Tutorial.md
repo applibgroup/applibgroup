@@ -182,7 +182,7 @@ The public methods below will help us to operate on the component at runtime.
 
   Flexbox Layout will be created with flex wrap in wrap mode. See screenshots below:
   
-  <img src="Gif\image4.gif" alt="flexDirection" style="width:200px;height:400px;" />
+  <p align="center"><img src="Gif\image4.gif" alt="flexDirection" style="width:200px;height:400px;"></img></p>
   
 ## Example3 justifyContent for the FlexboxLayout:
 
@@ -201,7 +201,7 @@ The public methods below will help us to operate on the component at runtime.
   
   Flexbox Layout will be  created with flex wrap in wrap and justify content with start. See screenshots below:
   
-  <img src="Gif\image5.gif" alt="flexDirection" style="width:200px;height:400px;" />
+  <p align="center"><img src="Gif\image5.gif" alt="flexDirection" style="width:200px;height:400px;"></img></p>
 
 ## Example4 alignItems for the FlexboxLayout:
 
@@ -220,7 +220,7 @@ The public methods below will help us to operate on the component at runtime.
 
     Flexbox Layout will be  created with flex wrap in wrap and align items with flex start. See screenshots below:
   
-  <img src="Gif\image6.gif" alt="flexDirection" style="width:200px;height:400px;" />
+  <p align="center"><img src="Gif\image6.gif" alt="flexDirection" style="width:200px;height:400px;"></img></p>
 
 ## Example5 alignContent for the FlexboxLayout:
 
@@ -239,7 +239,7 @@ The public methods below will help us to operate on the component at runtime.
   
     Flexbox Layout will be  created with flex wrap in wrap and align content with `FLEX_START` views. See screenshots below:
   
-  <img src="Gif\image7.gif" alt="flexDirection" style="width:200px;height:400px;" />
+  <p align="center"><img src="Gif\image7.gif" alt="flexDirection" style="width:200px;height:400px;"></img></p>
   
 
 -
