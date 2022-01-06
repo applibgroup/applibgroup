@@ -14,7 +14,8 @@ To get started right away, head on to [Gitee](https://gitee.com/HarmonyOS-tpc/fl
 This library - com.google.harmony.flexbox.FlexboxLayout, is very useful in the development of applications which are in our daily use. Some of such examples mentioned below:
 
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>CSS Flexible Box Layout</b></br>The flexbox or flexible box model in CSS is a one-dimensional layout model</li><ul>
@@ -24,10 +25,11 @@ This library - com.google.harmony.flexbox.FlexboxLayout, is very useful in the d
         </td>
     </tr>
     <tr>
-        <td><center><img src="Gif/image1.gif" alt="flexDirection" style="width:200px;height:400px;"></center></td>
-        <td><center>  <img src="Gif\image2.gif" alt="flexDirection" style="width:200px;height:400px;" /></center></td>
+        <td width="50%"><p align="center"><img src="Gif/image1.gif" alt="flexDirection" style="width:200px;height:400px;"></p></td>
+        <td width="50%"><p align="center"><img src="Gif\image2.gif" alt="flexDirection" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanism.
@@ -165,7 +167,7 @@ The public methods below will help us to operate on the component at runtime.
 
     Flexbox Layout will be  created with flex direction in row mode. See screenshots below:
   
-  <img src="Gif\image3.gif" alt="flexDirection" style="width:200px;height:400px;" />
+  <p align="center"><img src="Gif\image3.gif" alt="flexDirection" style="width:200px;height:400px;"></img></p>
 
 ## Example2 Fixelwrap for the FlexboxLayout:
 
