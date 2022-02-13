@@ -1,0 +1,12 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.img {
+    height: 100%;
+    object-fit: contain;
+    background-color: #808080;
+}

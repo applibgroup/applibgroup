@@ -1,0 +1,4 @@
+<div class="container">
+    <image class="img" src="{{ img_landscape }}">
+    </image>
+</div>

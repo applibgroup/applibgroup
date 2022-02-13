@@ -1,0 +1,13 @@
+{
+  "theme": [
+    {
+      "name": "activity_theme",
+      "value": [
+        {
+          "name": "noTitleBar",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
