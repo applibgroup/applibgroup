@@ -1,4 +1,0 @@
-<div class="container">
-    <image class="img" src="{{ img_portrait }}">
-    </image>
-</div>
