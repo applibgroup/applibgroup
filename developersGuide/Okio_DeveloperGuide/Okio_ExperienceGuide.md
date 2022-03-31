@@ -147,9 +147,9 @@ In this section, we can have a look at some of the examples where the APIs of th
 **Example1: Sink write and Source read API**  
 
 In this example, we will see writing contents to the file
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td width=700px>
         <pre>
 <b style="color:DarkCyan;">
 var sink = new okio.Sink(this.fileUri);
@@ -166,7 +166,7 @@ console.log("error=>"+error);
     });</b>
         </pre>
         </td>
-        <td width="50%">
+        <td width=300px>
         <p align="center"><img src="OkioDocImgs/sink_decrypt.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
@@ -174,16 +174,16 @@ console.log("error=>"+error);
 
 **Example2: ByteString decodeBase64 API**  
 In this example, we will see decoding base64
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td width=700px>
         <pre>
         <b style="color:DarkCyan;">
 let decodeBase64 = byteStringObj.decodeBase64(this.Value);
 this.readValue = JSON.stringify(decodeBase64);
         </pre>
         </td>
-        <td width="50%">
+        <td width=300px>
         <p align="center"><img src="OkioDocImgs/decodebase64.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
@@ -192,34 +192,34 @@ this.readValue = JSON.stringify(decodeBase64);
 **Example3: ByteString decodeHex API**  
 
 In this example, we will see decoding decodeHex
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td width=700px>
         <pre>
         <b style="color:DarkCyan;">
 let decodehex = byteStringObj.decodeHex(this.Value);
 this.readValue = JSON.stringify(decodehex);</b>
         </pre>
         </td>
-        <td width="50%">
+        <td width=300px>
         <p align="center"><img src="OkioDocImgs/decodehex.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
 </table>
 
-**Example2: ByteString encodeUtf8 API**  
+**Example4: ByteString encodeUtf8 API**  
 
 In this example, we will see encoding UTF8
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td width=700px>
         <pre>
         <b style="color:DarkCyan;">
 let encodeUtf8 = byteStringObj.encodeUtf8(this.Value);
 this.readValue = JSON.stringify(encodeUtf8);</b>
         </pre>
         </td>
-        <td width="50%">
+        <td width=300px>
         <p align="center"><img src="OkioDocImgs/encodeutf8.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
