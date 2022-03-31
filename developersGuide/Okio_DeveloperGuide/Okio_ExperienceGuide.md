@@ -10,7 +10,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - <span style="color: purple;">Okio</span>, is very useful in the development of applications which are in our daily use. Couple of such examples are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Write and read contents to/from file</b></br>Write contents to file and read contents from file</li><ul>
@@ -20,10 +21,11 @@ This library - <span style="color: purple;">Okio</span>, is very useful in the d
         </td>
     </tr>
     <tr>
-        <td><center><img src="OkioDocImgs/sink_decrypt.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="OkioDocImgs/sink_encrypt.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="OkioDocImgs/sink_decrypt.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="OkioDocImgs/sink_encrypt.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
