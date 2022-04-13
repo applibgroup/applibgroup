@@ -21,7 +21,8 @@ Cookies can be sent in Http header and they will be saved in system’s shared p
 ## **2. Typical Use Cases**
 <span style="color: purple;">Okhttp</span> library, is quite beneficial in the development of apps that we use on a regular basis. Some of the typical use cases are mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>REST Client</b></br>This use case performs functionality of Http GET and POST methods. It gets the content from the specified URL and posts the content to the URL given.</li><ul>
@@ -38,7 +39,8 @@ Cookies can be sent in Http header and they will be saved in system’s shared p
         <td><center><img src="OkhttpDocImgs/files.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
         <td><center><img src="OkhttpDocImgs/imageprev.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 ## **3. Capability and Features**
 This section of the document lists the features and capabilities of the Okhttp library, that makes using it simple and user friendly.
@@ -170,9 +172,9 @@ In this part, we'll look at a few instances of how the APIs in this library are 
 
 **Example1**  
 In this example, we can see Global Parameter functionality.
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td  width=700px>
         <pre>
         <b style="color:DarkCyan;">
 let request = new okhttp.Request.Builder()
@@ -184,7 +186,7 @@ let request = new okhttp.Request.Builder()
               .build();
         </pre>
         </td>
-        <td width="50%">
+        <td  width=300px>
         <p align="center"><img src="OkhttpDocImgs/global.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
@@ -192,9 +194,9 @@ let request = new okhttp.Request.Builder()
 
 **Example2**  
 In this example, we can see Cancel Based on Tag functionality.
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td  width=700px>
         <pre>
         <b style="color:DarkCyan;">
 let request1 = new okhttp.Request.Builder()
@@ -205,7 +207,7 @@ let request1 = new okhttp.Request.Builder()
             .build();
         </pre>
         </td>
-        <td width="50%">
+        <td  width=300px>
         <p align="center"><img src="OkhttpDocImgs/tag.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
@@ -213,9 +215,9 @@ let request1 = new okhttp.Request.Builder()
 
 **Example3**  
 In this example, we can see Cookies functionality.
-<table style="width: 100%">
+<table>
     <tr>
-        <td width="50%">
+        <td  width=700px>
         <pre>
         <b style="color:DarkCyan;">
 var cookiejar = new okhttp.CookieJar();
@@ -233,7 +235,7 @@ new  okhttp.CookieStore()
                     .build();
         </pre>
         </td>
-        <td width="50%">
+        <td  width=300px>
         <p align="center"><img src="OkhttpDocImgs/cookie.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
