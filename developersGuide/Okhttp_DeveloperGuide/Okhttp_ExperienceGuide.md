@@ -24,20 +24,20 @@ Cookies can be sent in Http header and they will be saved in system’s shared p
 <div align="center">
 <table>
     <tr>
-        <td>
+        <td width=333px>
             <ul><li><b>REST Client</b></br>This use case performs functionality of Http GET and POST methods. It gets the content from the specified URL and posts the content to the URL given.</li><ul>
         </td>
-        <td>
+        <td width=333px>
             <ul><li><b>File Uploader</b></br>The uploader component allows you to upload the files asynchronously. The upload process requires save and remove action URL to manage the upload process in the server. The name attribute must match the name of a parameter in the POST method.</li><ul>
         </td>
-        <td>
+        <td width=333px>
             <ul><li><b>Image Previewer</b></br>This use case makes it easy and faster way to download images of any format from the specified URL.</li><ul>
         </td>
     </tr>
     <tr>
-        <td><center><img src="OkhttpDocImgs/rest.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="OkhttpDocImgs/files.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="OkhttpDocImgs/imageprev.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width=333px><center><img src="OkhttpDocImgs/rest.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width=333px><center><img src="OkhttpDocImgs/files.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width=333px><center><img src="OkhttpDocImgs/imageprev.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
     </tr>
 </table>
 </div>
