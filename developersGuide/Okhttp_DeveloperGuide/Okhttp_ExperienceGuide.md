@@ -35,9 +35,9 @@ Cookies can be sent in Http header and they will be saved in system’s shared p
         </td>
     </tr>
     <tr>
-        <td width=333px><center><img src="OkhttpDocImgs/rest.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td width=333px><center><img src="OkhttpDocImgs/files.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td width=333px><center><img src="OkhttpDocImgs/imageprev.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width=333px><p align="center"><img src="OkhttpDocImgs/rest.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width=333px><p align="center"><img src="OkhttpDocImgs/files.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width=333px><p align="center"><img src="OkhttpDocImgs/imageprev.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table>
 </div>
