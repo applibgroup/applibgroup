@@ -316,14 +316,14 @@ import {CalculatorClient} from '../../common/gen-ohos/Calculator';
 * **Get <span style="color: purple;">TJSONProtocol object</span> by passing the Transport object got from above step**
 <table style="width: 100%">
     <tr>
-        <td width="50%">
+        <td width="70%">
         <pre>
         <b style="color:DarkCyan;">
 var transport = new Thrift.Transport("http://IP:port/");
 var protocol = new Thrift.TJSONProtocol(transport);
         </pre>
         </td>
-        <td width="50%">
+        <td width="30%">
         <p align="center"><img src="thriftgif/connect.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
     </tr>
@@ -338,7 +338,7 @@ var client = new CalculatorClient(protocol);
 * **Call the methods of the server using the CalculatorClient object and get the response from the server.**
 <table style="width: 100%">
     <tr>
-        <td width="50%">
+        <td width="70%">
         <pre>
         <b style="color:DarkCyan;">
 var workAdd = new Work()
@@ -379,7 +379,7 @@ if (result) {
 });
         </pre>
         </td>
-        <td width="50%">
+        <td width="30%">
         <p align="center"><img src="thriftgif/add.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         <p align="center"><img src="thriftgif/sub.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p>
         </td>
