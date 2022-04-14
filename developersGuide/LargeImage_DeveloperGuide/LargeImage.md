@@ -29,7 +29,9 @@ This large image lirary is very useful in loading the image which can be zoomed 
     
 </table>
 </div>
-<center><table>
+
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b></b></br>Zoom_In and Zoom_out Image View with scroll view</b></br>In this image view Zoom_In and Zoom_out features are enabled along with scroll view attribute.</li><ul>
@@ -37,8 +39,9 @@ This large image lirary is very useful in loading the image which can be zoomed 
     </tr>
     <tr>
         <td width="100%"><p align="center"><img src="Screenshots/scroll.gif" alt="flexDirection" style="width:200px;height:400px;"></p></td>
-    </tr>
-</table></center>
+</tr>
+</table>
+</div>
 
 ## **3. Capability**
 In this section, we can see the list of features which the library provides which makes the use of this library very easy and friendly. Primarily, this library supports customization of component attributes using the below mechanism.
