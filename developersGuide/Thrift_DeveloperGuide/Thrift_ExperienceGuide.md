@@ -9,7 +9,8 @@ To get started right away, head on to [Gitee](https://gitee.com/openharmony-tpc/
 ## **2. Typical Use Cases**
 This library - <span style="color: purple;">Thrift</span>, is very useful in the development of applications which are in our daily use. For example as mentioned below:
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Thrift Service for Calculator.</b></br>Create simple Thrift Service which implements various functions of a Calculator.</li><ul>
@@ -19,10 +20,11 @@ This library - <span style="color: purple;">Thrift</span>, is very useful in the
         </td>
          </tr>
     <tr>
-        <td><center><img src="thriftgif/add.gif" alt="Thrift" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="thriftgif/time.gif" alt="Thrift" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="thriftgif/add.gif" alt="Thrift" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="thriftgif/time.gif" alt="Thrift" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
