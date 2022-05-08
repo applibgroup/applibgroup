@@ -35,9 +35,6 @@ When it comes to raw search speed LUCENE provides flexible search capabilities l
         <td>
             <ul><li><b>Worker Index </b></br>Asynchronous processing model as workers to perform any updates or queries on the index in parallel</li><ul>
         </td>
-        <td>
-            <ul><ul>
-        </td>
     </tr>
     <tr>
         <td width="100%"><p align="center"><img src="Lucene_Images/Worker_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
