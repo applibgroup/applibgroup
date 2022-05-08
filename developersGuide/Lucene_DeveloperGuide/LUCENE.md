@@ -13,7 +13,8 @@ When it comes to raw search speed LUCENE provides flexible search capabilities l
 
 3>Document is multi-field index which can store complex
 
-<center><table>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Index Search </b></br>Index Searches particular index of the element.</li><ul>
@@ -23,11 +24,13 @@ When it comes to raw search speed LUCENE provides flexible search capabilities l
         </td>
     </tr>
     <tr>
-        <td><center><img src="Lucene_Images/Index_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td><center><img src="Lucene_Images/document_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
+        <td width="50%"><p align="center"><img src="Lucene_Images/Index_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
+        <td width="100%"><p align="center"><img src="Lucene_Images/document_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
-</table></center>
-<center><table>
+</table>
+</div>
+<div align="center">
+<table>
     <tr>
         <td>
             <ul><li><b>Worker Index </b></br>Asynchronous processing model as workers to perform any updates or queries on the index in parallel</li><ul>
@@ -40,7 +43,8 @@ When it comes to raw search speed LUCENE provides flexible search capabilities l
         <td><center><img src="Lucene_Images/Worker_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
         <td></td>
     </tr>
-</table></center>
+</table>
+</div>
 
 
 
