@@ -40,8 +40,7 @@ When it comes to raw search speed LUCENE provides flexible search capabilities l
         </td>
     </tr>
     <tr>
-        <td><center><img src="Lucene_Images/Worker_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></center></td>
-        <td></td>
+        <td width="100%"><p align="center"><img src="Lucene_Images/Worker_page.gif" alt="Italian Trulli" style="width:200px;height:400px;"></p></td>
     </tr>
 </table>
 </div>
