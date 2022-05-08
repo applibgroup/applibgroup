@@ -125,9 +125,9 @@ This section will help us to understand the usage of the library as you use it i
 Element can be added to defined index.
 
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
 <b style="color:lightcyan;">//Give the index and the element to be added</b>
 model.addIndex(26, 'z zz zzz')
@@ -145,10 +145,9 @@ model.addIndex(26, 'z zz zzz')
 ### **Removing element from index search field**
 
 Remove the data in the provided index
-
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
 <b style="color:lightcyan;">//Give the index from where data should be removed</b>
 model.deleteIndex(0);
@@ -168,9 +167,9 @@ model.deleteIndex(0);
 Update the element in the provided index given
 
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;"> //Provide the element and the index in which the element has to be updated</b>
  model.updateIndex(1, 'nb nbb nbbb');
@@ -190,9 +189,9 @@ Update the element in the provided index given
 Search for single element in the Index dataset
 
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
 <b style="color:lightcyan;"> //Provide the element to be searched for.</b>
  model.search('c');
@@ -213,9 +212,9 @@ Search for single element in the Index dataset
 Appending the elemnet in the index to search
 
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;"> //Provide the index and the element for appending.</b>
 model.appendIndex(26,' append ')
@@ -234,9 +233,9 @@ model.appendIndex(26,' append ')
 
 Index data set can be exported using key value pair of element in the index
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;"> //export the dataset</b>
 model.exportIndex();;
@@ -262,9 +261,9 @@ model.exportIndex();;
 Import the dataset in keyvalue pair.
  
 
-  <table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;">//import the datset to model</b>
  model.importIndex();
@@ -288,9 +287,9 @@ Import the dataset in keyvalue pair.
 
 Search single filed in document index for content.
 
-  <table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
   <b style="color:lightcyan;">//Search the element in document with url and content  </b>
 index.search('Technology', {
@@ -313,9 +312,9 @@ index.search('Technology', {
 
 Multifield search as in title and content to be searched.
  
- <table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;">//Serach in multifield below you can see in index title and content the word company would be searched</b>
  index.search('company', {
@@ -341,9 +340,9 @@ Multifield search as in title and content to be searched.
 
 In document search the url index by giving the tag from the page.
  
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;">//in below two tags are used to be searched from the document</b>
 index.search({ tag: ['Toyota', 'mercedes'] });
@@ -361,9 +360,9 @@ index.search({ tag: ['Toyota', 'mercedes'] });
 In page based search the element will get serached and the offset page will not appera again.
  
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;">//Provide the pageno of the offset to start</b>
 paginationQuery(this.pageNo)
@@ -386,9 +385,9 @@ pageNo++;
 Remove the page from the document using async search by the lbrary.
  
 
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
   <b style="color:lightcyan;">//provide the page url to be removed</b>
   index.removeAsync('url1').then(function () {
@@ -414,9 +413,9 @@ console.log("removeasync"+stores[i]);
 
 Update the URL title content and title for the provide url in the library.
  
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
   <b style="color:lightcyan;">//update the url2 with new tag title and content</b>
 index.updateAsync({
@@ -447,9 +446,9 @@ stores[i] = index.get('urleng' + i);
 
 Adding new set of data/page/url for given data set.
  
-<table style="width: 100%">
+<table>
     <tr>
-    <td width="50%">
+    <td width="700px">
     <pre>
  <b style="color:lightcyan;">//add new Url and provoide the data</b>
 index.set('url1', { 'url': 'url1', 'tag': 'maserati', 'title': 'Luxurycar Maserati, this data has been changed on url1' });
